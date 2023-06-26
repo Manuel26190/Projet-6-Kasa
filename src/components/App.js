@@ -1,7 +1,11 @@
+import Header from "./Header";
+
 
 function App() {
   return (        
-        <h1>Test</h1>  
+        <div>
+            <Header />
+        </div> 
   );
 }
 

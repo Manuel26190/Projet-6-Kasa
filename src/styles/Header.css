@@ -1,0 +1,16 @@
+.kasa-Header {
+  display: flex;
+}
+
+.kasa-nav {
+  width: 309px;
+  height: 34px;
+  top: 17px;
+  left: 931px;
+  gap: 57px;
+}
+
+.kasa-ul {
+  display: flex;
+  list-style-type: none;
+}/*# sourceMappingURL=Header.css.map */
