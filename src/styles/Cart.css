@@ -1,0 +1,19 @@
+.li-cart {
+  border: 1px solid black;
+  width: 1140px;
+  margin: 99px auto auto auto;
+}
+.li-cart .kasa-item-cover {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.li-cart h1 {
+  color: #40632f;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 142.6%;
+}/*# sourceMappingURL=Cart.css.map */
