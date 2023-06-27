@@ -1,7 +1,12 @@
-.lmj-plant-list {
+.ul-cart {
   list-style-type: none;
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 1140px;
+  border: 1px solid blue;
+}
+.ul-cart .div-cart {
+  margin: 99px auto auto auto;
 }/*# sourceMappingURL=Appartment.css.map */
