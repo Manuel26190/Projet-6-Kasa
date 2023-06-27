@@ -1,27 +1,20 @@
-body {
-  margin: auto;
-  padding: auto;
-}
-
 .kasa-Header {
+  padding-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1240px;
   height: 68px;
-  margin-top: 20px;
   margin: auto;
-}
-.kasa-Header .kasa-logo {
-  margin-left: 80px;
 }
 .kasa-Header .kasa-ul {
   display: flex;
-  list-style-type: none;
+  font-weight: 500;
+  gap: 57px;
+}
+.kasa-Header .nav-link {
+  text-decoration: underline;
   color: #FF6060;
   font-size: 24px;
   font-family: Montserrat;
-  font-weight: 500;
-  gap: 57px;
-  margin-right: 80px;
 }/*# sourceMappingURL=Header.css.map */

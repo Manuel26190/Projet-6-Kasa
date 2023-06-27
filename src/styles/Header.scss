@@ -1,31 +1,21 @@
-body{
-    //max-width: 1440px;    
-    margin: auto;
-    padding: auto;    
-}
-
 .kasa-Header{
+    padding-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;    
     width: 1240px;        
     height: 68px;
-    margin-top: 20px;    
     margin: auto;       
-    .kasa-logo{
-        margin-left: 80px;    
-    }
-    .kasa-nav{
-         
-    }
     .kasa-ul{
-        display: flex;
-        list-style-type: none;
+        display: flex;       
+        font-weight: 500;
+        gap: 57px;        
+    }
+    .nav-link{
+        text-decoration: underline;
         color: #FF6060;    
         font-size: 24px;
         font-family: Montserrat;
-        font-weight: 500;
-        gap: 57px;   
-        margin-right: 80px;
-    }
+        
+    }    
 }

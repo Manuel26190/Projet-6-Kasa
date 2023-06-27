@@ -1,10 +1,13 @@
+import { ReactDOM } from "react";
 import Header from "./Header";
+import Banner from "./Banner";
 
 
 function App() {
   return (        
         <div>
             <Header />
+            <Banner />
         </div> 
   );
 }
