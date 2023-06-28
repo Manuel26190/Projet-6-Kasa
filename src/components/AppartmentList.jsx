@@ -1,21 +1,21 @@
 import Cart from "./Cart";
 import data from '../datas/data.js';
 import '../styles/Appartment.css';
+import { Link } from "react-router-dom";
 
-//console.log(data)
 
-function AppartmentList () {
-    
+function AppartmentList () {    
     return (
         <ul className="ul-cart" >
             {data.map(({title, cover, id}) => 
                 <div className="div-cart" key={id}>
-                    <a  href="#">
-                        <Cart
-                            title = {title}
-                            cover = {cover}            
+                    <Link to='/details'>
+                    <Cart
+                        title = {title}
+                        cover = {cover}            
                         />
-                    </a>                    
+                    </Link>
+                                      
                 </div>                
             )}            
         </ul>
