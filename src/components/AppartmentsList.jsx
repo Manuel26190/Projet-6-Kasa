@@ -1,6 +1,6 @@
 import Cart from "./Cart";
 import data from '../datas/data.js';
-import '../styles/Appartment.css';
+import '../styles/AppartmentsList.css';
 import { Link } from "react-router-dom";
 
 

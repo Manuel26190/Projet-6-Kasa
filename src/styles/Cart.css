@@ -1,3 +1,4 @@
+/*Style des photos et titres des appartements de la page d'accueil*/
 .li-cart {
   height: 340px;
   width: 340px;
@@ -10,7 +11,7 @@
 }
 .li-cart h2 {
   color: #ffffff;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
   font-size: 18px;
   font-family: Montserrat;
   font-weight: 500;
