@@ -1,12 +1,15 @@
 .ul-cart {
-	list-style-type: none;
-	padding: 32px;
+	list-style-type: none;	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-    width: 1140px;
-    border: 1px solid blue;
-    .div-cart{       
-        margin: 99px auto auto auto;
+    width: 1240px;    
+    margin: 99px auto auto auto;
+    padding: 0;
+    row-gap: 50px;
+    column-gap: 60px;
+    a{
+        text-decoration: none;
     }
+    
 }

@@ -10,10 +10,12 @@ function AppartmentList () {
         <ul className="ul-cart" >
             {data.map(({title, cover, id}) => 
                 <div className="div-cart" key={id}>
-                    <Cart
-                    title = {title}
-                    cover = {cover}
-            />
+                    <a  href="#">
+                        <Cart
+                            title = {title}
+                            cover = {cover}            
+                        />
+                    </a>                    
                 </div>                
             )}            
         </ul>
@@ -21,13 +23,3 @@ function AppartmentList () {
 }
 
 export default AppartmentList
-
-
-
-
-    
-        //<div className="div-cart">
-        //    <h1 key={data.id}>{title}</h1>
-        //    <img key={data.id} src={cover}></img>
-                                    
-        //</div>

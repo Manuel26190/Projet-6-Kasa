@@ -2,6 +2,7 @@
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import AppartmentList from "../../components/AppartmentList";
+import Footer from "../../components/Footer";
 
 function HomePage() {
   return (        
@@ -9,6 +10,7 @@ function HomePage() {
             <Header />
             <Banner />
             <AppartmentList />
+            <Footer />
         </div> 
   );
 }

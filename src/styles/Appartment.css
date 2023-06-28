@@ -1,12 +1,15 @@
 .ul-cart {
   list-style-type: none;
-  padding: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1140px;
-  border: 1px solid blue;
-}
-.ul-cart .div-cart {
+  width: 1240px;
   margin: 99px auto auto auto;
+  padding: 0;
+  row-gap: 50px;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+.ul-cart a {
+  text-decoration: none;
 }/*# sourceMappingURL=Appartment.css.map */
