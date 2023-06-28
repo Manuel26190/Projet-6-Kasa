@@ -1,13 +1,12 @@
 /*Style des photos et titres des appartements de la page d'accueil*/
-.li-cart{    
-    height: 340px;
-    width: 340px;
+.li-cart{ 
+    background-size: cover;
     object-fit: cover;
+    height: 340px;
+    width: 340px;    
     border-radius: 10px;
     display: flex;
-    align-items: end;
-    background-size: cover;        
-        
+    align-items: end;      
     h2{
         color: #ffffff;
         text-shadow: 1px 1px 1px black;

@@ -1,6 +1,5 @@
  import '../styles/Cart.css'; 
 
-
 function Cart ({title, cover}) { 
 
     return (
@@ -8,12 +7,8 @@ function Cart ({title, cover}) {
             <li className='li-cart' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(${cover})`}}>			
 			<h2>{title}</h2>			
 		    </li>
-        </div>        
-         
+        </div>         
     )
 }
 
 export default Cart
-/*
-<img className='kasa-item-cover' src={cover} alt={`${title} cover`} />
-*/
