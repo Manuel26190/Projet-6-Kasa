@@ -1,0 +1,12 @@
+.div-about{
+    display: flex;
+    justify-content: center;
+    .about-img{
+        height: 223px;
+        width: 1240px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-top: 26px;        
+    }
+
+}

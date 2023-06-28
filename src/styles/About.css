@@ -1,0 +1,12 @@
+.div-about {
+  display: flex;
+  justify-content: center;
+}
+.div-about .about-img {
+  height: 223px;
+  width: 1240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  margin-top: 26px;
+}/*# sourceMappingURL=About.css.map */
