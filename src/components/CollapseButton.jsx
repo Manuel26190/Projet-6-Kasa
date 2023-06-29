@@ -1,19 +1,20 @@
 import { useState } from "react";
+import '../styles/CollapseButton.css';
 
 function CollapseButton ({entitled, text}) {
     const [isOpen, setIsOpen] = useState(true);
     
         return isOpen ? (                   
             
-                <div className="div-collapse">
-                    <button className="button-collapse" onClick={() => setIsOpen (false)}>{entitled}</button>
-                    <div className="div-text-collapse">
-                        <p className="collapse-text">{text}</p>
-                    </div>                 
-                </div>                                       
+            <div className="collapse-div">
+                <button className="open-collapse-button" onClick={() => setIsOpen (false)}>{entitled}</button>
+                <div className="collapse-div-text">
+                    <p className="collapse-text">{text}</p>
+                </div>                 
+            </div>                                       
     ) : (
             <div>
-                <button className="button-fiability" onClick={() => setIsOpen (true)}>{entitled}</button>                
+                <button className="close-collapse-button" onClick={() => setIsOpen (true)}>{entitled}</button>                
             </div>
     ) 
 };

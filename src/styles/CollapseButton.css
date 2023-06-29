@@ -1,0 +1,11 @@
+.collapse-div {
+  border: 1px solid black;
+}
+.collapse-div .open-collapse-button {
+  background: #FF6060;
+  color: #FFFFFF;
+}
+
+.close-collapse-button {
+  background: #FF6060;
+}/*# sourceMappingURL=CollapseButton.css.map */
