@@ -1,7 +1,8 @@
 .collapse-div {
-  margin: 38px 19% 38px 19%;
+  margin: 0px 23% 30px 23%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background: var(--gray, #F6F6F6);
   border-radius: 10px;
 }
@@ -21,8 +22,7 @@
 .collapse-div .collapse-text {
   padding: 0px 20px 3px 20px;
 }
-
-.close-collapse-button {
+.collapse-div .close-collapse-button {
   background: #FF6060;
   border: none;
   color: #FFFFFF;
@@ -30,10 +30,11 @@
   font-family: Montserrat;
   font-weight: 500;
   border-radius: 5px;
+  line-height: 182.6%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
 }
-
-.chevron-logo {
-  font-size: 150px;
-  color: aqua;
-  background-color: blue;
+.collapse-div .chevron-logo {
+  margin-top: 5px;
 }/*# sourceMappingURL=CollapseButton.css.map */
