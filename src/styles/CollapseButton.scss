@@ -35,9 +35,26 @@
         display: flex;
         justify-content: space-between;
         padding: 5px 20px 5px 20px;        
+    }.chevron-logo{
+        margin-top: 5px;
+        //transform-origin: 50% 50%;
+        //transform: rotateY( 180deg );
+        //-webkit-transform:rotate(180deg);
+        //-moz-transform:rotate(180deg);
     }
-    .chevron-logo{        
-        margin-top: 5px;        
-    }     
+    //.chevron-logo {
+        //transform-origin: 50% 50%;
+        //transform: rotateY( 180deg );
+        //-webkit-transform:rotate(180deg);
+        //-moz-transform:rotate(180deg);
+    //}
+        
 }
-
+/*
+.chevron-logo{   
+    transition: transform 0.5s ease;                  
+}
+.chevron-logo:active {
+    transform: rotate(180deg);
+  }
+  

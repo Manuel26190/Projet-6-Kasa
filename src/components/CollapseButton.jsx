@@ -1,13 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import '../styles/CollapseButton.css';
 import ChevronLogo from '../assets/logo-chevron.jpg';
 
 function CollapseButton ({entitled, text}) {
-    const [isOpen, setIsOpen] = useState(true);
+    
+    //const [rotation, setRotation] = useState(false); 
+    const [isOpen, setIsOpen] = useState(false); 
+    //const setIsOp = "seIsOpen(false)";    
     
         return isOpen ? (             
                 <div className="collapse-div">
-                <button className="open-collapse-button" onClick={() => setIsOpen (false)}>
+                <button className="open-collapse-button" onClick={() => {setIsOpen (false)} } >
                     {entitled}
                     <img src={ChevronLogo} alt="logo-chevron" className="chevron-logo"/>
                 </button>

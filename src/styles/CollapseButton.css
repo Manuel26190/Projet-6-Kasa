@@ -37,4 +37,13 @@
 }
 .collapse-div .chevron-logo {
   margin-top: 5px;
-}/*# sourceMappingURL=CollapseButton.css.map */
+}
+
+/*
+.chevron-logo{   
+    transition: transform 0.5s ease;                  
+}
+.chevron-logo:active {
+    transform: rotate(180deg);
+  }
+  *//*# sourceMappingURL=CollapseButton.css.map */
