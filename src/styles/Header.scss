@@ -1,21 +1,25 @@
-.kasa-Header{
-    padding-top: 25px;
+.header-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;    
-    width: 1240px;        
-    height: 68px;
-    margin: auto;       
-    .kasa-ul{
-        display: flex;       
-        font-weight: 500;
-        gap: 57px;        
+    justify-content: center;
+    .kasa-Header{
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        width: 1240px;        
+        height: 68px;
+        margin: auto;       
+        .kasa-ul{
+            display: flex;       
+            font-weight: 500;
+            gap: 57px;        
+        }
+        .nav-link{
+            text-decoration: underline;
+            color: #FF6060;    
+            font-size: 24px;
+            font-family: Montserrat;
+            
+        }    
     }
-    .nav-link{
-        text-decoration: underline;
-        color: #FF6060;    
-        font-size: 24px;
-        font-family: Montserrat;
-        
-    }    
 }

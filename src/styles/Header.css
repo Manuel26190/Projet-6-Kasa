@@ -1,4 +1,8 @@
-.kasa-Header {
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.header-container .kasa-Header {
   padding-top: 25px;
   display: flex;
   justify-content: space-between;
@@ -7,12 +11,12 @@
   height: 68px;
   margin: auto;
 }
-.kasa-Header .kasa-ul {
+.header-container .kasa-Header .kasa-ul {
   display: flex;
   font-weight: 500;
   gap: 57px;
 }
-.kasa-Header .nav-link {
+.header-container .kasa-Header .nav-link {
   text-decoration: underline;
   color: #FF6060;
   font-size: 24px;

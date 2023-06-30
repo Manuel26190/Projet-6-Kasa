@@ -6,15 +6,18 @@ import '../pages/About/AboutPage.jsx';
 
 function Header() {
 	return (
-		<div className='kasa-Header'>			
-			<img src={Redlogo} alt='logo-Kasa'/>
-			<nav className='kasa-nav'>
-				<ul className='kasa-ul'>
-					<Link to='/' className='nav-link'>Accueil</Link>
-					<Link to="/about" className='nav-link'>A Propos</Link>										
-				</ul>
-			</nav>		
+		<div className='header-container'>
+			<div className='kasa-Header'>			
+				<img src={Redlogo} alt='logo-Kasa'/>
+				<nav className='kasa-nav'>
+					<ul className='kasa-ul'>
+						<Link to='/' className='nav-link'>Accueil</Link>
+						<Link to="/about" className='nav-link'>A Propos</Link>										
+					</ul>
+				</nav>		
+			</div>
 		</div>
+		
 	) 
 }
 export default Header
