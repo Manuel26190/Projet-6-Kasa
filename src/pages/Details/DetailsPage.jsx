@@ -1,5 +1,3 @@
-
-
 function Details () {
     return (
         <h1>Test Details</h1>
