@@ -1,6 +1,14 @@
-function Details () {
+import Info from "../../components/Info"
+
+
+function Details ({description, equipements}) {
     return (
-        <h1>Test Details</h1>
+        <div>
+            <Info
+            description={description}
+            equipements={equipements} 
+            />            
+        </div>
     )
 }
 

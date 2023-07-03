@@ -1,49 +1,46 @@
-.collapse-div {
-  margin: 0px 23% 30px 23%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: var(--gray, #F6F6F6);
-  border-radius: 10px;
-}
-.collapse-div .open-collapse-button {
-  background: #FF6060;
-  color: #FFFFFF;
-  border: none;
-  font-size: 24px;
-  font-family: Montserrat;
-  font-weight: 500;
-  border-radius: 5px;
-  line-height: 182.6%;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 20px 5px 20px;
-}
-.collapse-div .collapse-text {
-  padding: 0px 20px 3px 20px;
-}
-.collapse-div .close-collapse-button {
-  background: #FF6060;
-  border: none;
-  color: #FFFFFF;
-  font-size: 24px;
-  font-family: Montserrat;
-  font-weight: 500;
-  border-radius: 5px;
-  line-height: 182.6%;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 20px 5px 20px;
-}
-.collapse-div .chevron-logo {
-  margin-top: 5px;
+/*
+.collapse-div{  
+   //width: 1023px;  
+   margin: 0px 23% 30px 23%;   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background: var(--gray, #F6F6F6);
+   border-radius: 10px;          
+    .open-collapse-button{
+        background: #FF6060;
+        color: #FFFFFF ;
+        border: none;
+        font-size: 24px;
+        font-family: Montserrat;
+        font-weight: 500;        
+        border-radius: 5px;
+        line-height: 182.6%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px 5px 20px;
+    }
+    .collapse-text{
+        padding: 0px 20px 3px 20px; 
+    }
+    .close-collapse-button{
+        background: #FF6060;
+        border: none;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-family: Montserrat;
+        font-weight: 500;    
+        border-radius: 5px;
+        line-height: 182.6%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px 5px 20px;        
+    }
+    .logo-chevron{
+        margin-top: 9px;
+        border: 1px solid black;    
+    }    
 }
 
-/*
-.chevron-logo{   
-    transition: transform 0.5s ease;                  
-}
-.chevron-logo:active {
-    transform: rotate(180deg);
-  }
-  *//*# sourceMappingURL=CollapseButton.css.map */
+
+*//*# sourceMappingURL=CollapseButton.css.map */

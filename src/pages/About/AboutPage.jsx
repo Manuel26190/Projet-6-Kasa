@@ -22,16 +22,19 @@ function About (){
               content: "La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes",
         },
   ];
+
+  const isAbout = true;
     
     return (
         <div>            
             <div className="div-about">
-                <img className="about-img" src={imgAbout} alt="photographie de haute montagnes"/>
+                <img className="about-img" src={imgAbout} alt="photographie de haute montagne"/>
             </div>
             {contentList.map((content) => (
                 <CollapseButton
                     buttonText = {content.buttonText}
                     content = {content.content}
+                    isAbout
                 />
             ))}
                        
