@@ -1,49 +1,22 @@
 import { useState } from "react";
 import '../styles/CollapseButton.css';
+//import '../styles/Dropdown.css';
 //import ChevronLogo from '../assets/logo-chevron.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
-function CollapseButton ({buttonText, content, description, equipements, isAbout}) {    
+function CollapseButton ({buttonText, content, description, equipments, isAbout}) {    
     
     const [isOpen, setIsOpen] = useState(false);
-    function handleOpen () {
-        setIsOpen(!isOpen)
-    };
-
-    if (!isAbout){
-        if (description !== undefined) {
-            return (
-                <div className={`${'dropdown'} ${
-                        isAbout
-                            ? 'about-page-width'
-                            : 'apartement-details-page-width'}
-                            ${isOpen ? 'active' : ''}`}
-                >                    
-                    <button className={`${'dropdown-btn'}`} 
-                        onClick={handleOpen}
-                    >
-                        Bouton equipements
-                    </button>
-                </div>
-                
-            )
-        }
-        if(equipements !== undefined ) {
-            return (
-                <div>                    
-                    <button onClick={handleOpen}>Bouton description</button>
-                </div>
-            )
-        }
-    }        
-     
-     return isOpen ? (             
+    //function handleOpen () {
+    //    setIsOpen(!isOpen)
+    //};
+    return isOpen ? (             
         <div className="collapse-div">
-        <button className="open-collapse-button" onClick={handleOpen} >
+        <button className="open-collapse-button" onClick={() => {setIsOpen (false)} } >
             {buttonText}
             <FontAwesomeIcon
-                className="logo-chevron"
+                className="chevron-logo active"
                 icon={faChevronRight}
             />
             
@@ -54,15 +27,16 @@ function CollapseButton ({buttonText, content, description, equipements, isAbout
     </div>                                                   
 ) : (            
         <div className="collapse-div">
-        <button className="close-collapse-button" onClick={handleOpen}>
+        <button className="close-collapse-button" onClick={() => setIsOpen (true)}>
             {buttonText}
             <FontAwesomeIcon
-                className="logo-chevron"
-                icon={faChevronRight}
-            />
-        </button>                
-    </div>  
+                className="chevron-logo"
+                icon={faChevronRight}                
+            />                       
+        </button>                        
+    </div>           
     )
+    
 };  
         
 

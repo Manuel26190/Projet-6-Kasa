@@ -1,12 +1,12 @@
 import Info from "../../components/Info"
 
 
-function Details ({description, equipements}) {
+function Details ({description, equipments}) {
     return (
         <div>
             <Info
             description={description}
-            equipements={equipements} 
+            equipments={equipments} 
             />            
         </div>
     )

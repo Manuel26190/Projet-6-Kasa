@@ -1,11 +1,11 @@
 import CollapseButton from "./CollapseButton";
 
 
-function Info ({description, equipements}) {
+function Info ({description, equipments}) {
     return (
         <div>
             <CollapseButton description={description} />
-            <CollapseButton equipements={equipements} />
+            <CollapseButton equipments={equipments} />
         </div>
     )
 };
