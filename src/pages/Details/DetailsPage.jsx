@@ -6,13 +6,12 @@ function Details () {
     function table (elem) {
         return (
             <ul>
-                <li>{elem[0]}</li>
+                {elem.map((elem) => (
+                    <li>{elem}</li>
+                ))}                
             </ul>
-        ) 
-        
-
-        
-    }    
+        )       
+    };    
     return (
         <div>
             {data.map((el) => (
