@@ -14,12 +14,24 @@
             font-weight: 500;
             gap: 57px;        
         }
-        .nav-link{
-            text-decoration: underline;
+        .nav-link-home {
+            text-decoration: none;
             color: #FF6060;    
             font-size: 24px;
-            font-family: Montserrat;
+            font-family: 'Montserrat';
             
-        }    
+        }.active {
+            text-decoration: underline;
+        }
+        .nav-link-about {
+            text-decoration: none;
+            color: #FF6060;    
+            font-size: 24px;
+            font-family: 'Montserrat';
+            
+        }
+        .open {
+            text-decoration: underline;
+        }      
     }
 }
