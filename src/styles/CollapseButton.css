@@ -4,13 +4,15 @@
     visibility: hidden;
     overflow: hidden;
     height: auto;
+    margin-top: 0%;
   }
   to {
     opacity: 1;
     visibility: visible;
     overflow: visible;
     height: auto;
-    transition: all 1s ease, opacity 0.8s;
+    transition: all 1s ease, opacity 0.9s;
+    margin-top: 16px;
   }
 }
 .collapse-div {
@@ -36,7 +38,7 @@
 }
 .collapse-div .collapse-text {
   padding: 0px 20px 3px 20px;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
   animation-name: slidein;
   color: #FF6060;
 }
@@ -58,11 +60,6 @@
   transform: rotate(-90deg);
   transition: all 0.5s ease-in-out;
 }
-
-.chevron-logo.active {
+.collapse-div .chevron-logo.active {
   transform: rotate(-270deg);
-}
-
-.hidden {
-  display: none;
 }/*# sourceMappingURL=CollapseButton.css.map */
