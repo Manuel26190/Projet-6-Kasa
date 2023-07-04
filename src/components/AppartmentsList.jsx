@@ -10,9 +10,9 @@ function AppartmentList () {
             {data.map(({title, cover, id}) => 
                 <div className="div-cart" key={id}>
                     <Link to='/details'>
-                    <Cart
-                        title = {title}
-                        cover = {cover}            
+                        <Cart
+                            title = {title}
+                            cover = {cover}            
                         />
                     </Link>
                                       
