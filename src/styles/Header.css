@@ -16,21 +16,12 @@
   font-weight: 500;
   gap: 57px;
 }
-.header-container .kasa-Header .nav-link-home {
+.header-container .kasa-Header .nav-link {
   text-decoration: none;
   color: #FF6060;
   font-size: 24px;
   font-family: "Montserrat";
 }
 .header-container .kasa-Header .active {
-  text-decoration: underline;
-}
-.header-container .kasa-Header .nav-link-about {
-  text-decoration: none;
-  color: #FF6060;
-  font-size: 24px;
-  font-family: "Montserrat";
-}
-.header-container .kasa-Header .open {
   text-decoration: underline;
 }/*# sourceMappingURL=Header.css.map */

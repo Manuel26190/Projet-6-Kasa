@@ -1,9 +1,10 @@
 import Info from "../../components/Info";
 import data from "../../datas/data";
+import '../../styles/Details.css';
 
 
 function Details () {
-    function table (elem) {
+    function equipmentsTable (elem) {
         return (
             <ul>
                 {elem.map((elem) => (
@@ -19,7 +20,7 @@ function Details () {
                     buttontext1={'Description'}
                     content1={el.description}
                     buttontext2={'Equipements'}
-                    content2={table(el.equipments)}                
+                    content2={equipmentsTable(el.equipments)}                
                 />
             ))};            
         </div>

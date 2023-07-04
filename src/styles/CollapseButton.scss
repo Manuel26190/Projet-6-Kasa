@@ -1,20 +1,13 @@
 @keyframes slidein {
     from {
       opacity: 0;
-      visibility: hidden;
-      overflow: hidden;
-      height: auto;
-      margin-top: 0%;
-      
+      visibility: hidden;      
+      height: auto;                  
     }  
     to {
         opacity: 1;
-        visibility: visible;
-        overflow: visible;
-        height: auto;
-        transition: all 1s ease, opacity 0.9s;
-        margin-top: 16px;
-        
+        visibility: visible;       
+        height: auto;                        
     }
   }
 .collapse-div{      
@@ -39,8 +32,8 @@
         padding: 5px 20px 5px 20px;
     }
     .collapse-text{
-        padding: 0px 20px 3px 20px;
-        animation-duration: 0.5s;
+        padding: 0 20px 3px 20px;
+        animation-duration: 1.5s;
         animation-name: slidein;
         color: #FF6060;    
         font-size: 18px;

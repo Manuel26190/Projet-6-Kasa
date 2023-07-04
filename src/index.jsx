@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import HomePage from './pages/Home/HomePage.jsx';
-import About from './pages/About/AboutPage.jsx';
+import IsAbout from './pages/About/AboutPage.jsx';
 import Details from './pages/Details/DetailsPage.jsx';
 import Error from './pages/Error/ErrorPage.jsx';
 import '../src/styles/index.css';
@@ -17,7 +17,7 @@ root.render(
           <Header />
               <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/about" element={<IsAbout />} />
                 <Route path="/details" element={<Details />} />
                 <Route path="*" element={<Error />} />
               </Routes>

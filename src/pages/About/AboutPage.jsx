@@ -2,7 +2,7 @@ import imgAbout from '../../assets/img-about.jpg';
 import CollapseButton from "../../components/CollapseButton";
 import '../../styles/About.css'; 
 
-function About (){
+function IsAbout (){
 
     const contentList = [
         {
@@ -25,7 +25,8 @@ function About (){
               content: "La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes",
               id:4
         },
-  ];    
+  ]; 
+  const isAbout = true;   
     return (
         <div>            
             <div className="div-about">
@@ -35,7 +36,8 @@ function About (){
                 <CollapseButton 
                     key={content.id}
                     buttonText = {content.buttonText}
-                    content = {content.content}                    
+                    content = {content.content}
+                    isAbout={imgAbout}                    
                 />
             ))};                       
                         
@@ -43,4 +45,4 @@ function About (){
     )
 };
 
-export default About;
+export default IsAbout;

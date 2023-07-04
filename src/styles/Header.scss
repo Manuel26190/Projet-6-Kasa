@@ -14,7 +14,7 @@
             font-weight: 500;
             gap: 57px;        
         }
-        .nav-link-home {
+        .nav-link {
             text-decoration: none;
             color: #FF6060;    
             font-size: 24px;
@@ -22,16 +22,7 @@
             
         }.active {
             text-decoration: underline;
-        }
-        .nav-link-about {
-            text-decoration: none;
-            color: #FF6060;    
-            font-size: 24px;
-            font-family: 'Montserrat';
+        }     
             
-        }
-        .open {
-            text-decoration: underline;
-        }      
     }
 }

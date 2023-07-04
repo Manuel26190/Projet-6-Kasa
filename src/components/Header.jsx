@@ -3,41 +3,29 @@ import '../styles/Header.css';
 import Redlogo from '../assets/LOGO-kasa-red.svg';
 import '../pages/Home/HomePage.jsx';
 import '../pages/About/AboutPage.jsx';
-import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';  
 
-
-  
-
-function Header() {
-	const [isActive, setIsActive] = useState(false);
-
-  const handleClick = () => {
-    setIsActive(!isActive);
-  };
+function Header({}) {
+	
+	const location = useLocation();
+  const currentPage = location.pathname;  
 	
 	return (
 		<div className='header-container'>
 			<div className='kasa-Header'>
 				<Link to='/'>
-					<img src={Redlogo} alt='logo-Kasa'
-					className={isActive ? 'nav-link-home active' : 'nav-link-home active'} 
-					onClick={handleClick}
-					/>					
-				</Link>			
-				
+					<img src={Redlogo} alt='logo-Kasa'/>					
+				</Link>				
 				<nav className='kasa-nav'>
 					<ul className='kasa-ul'>
-						<Link to='/' className={isActive === false ? 'nav-link-home active' : 'nav-link-home'}
-        				onClick={handleClick} 
+						<Link to='/' className={currentPage === '/'? 'nav-link active' : 'nav-link'}        				 
 						>Accueil</Link>
-						<Link to="/about" className={isActive === true ? 'nav-link-about open' : 'nav-link-about'}
-						onClick={handleClick}
+						<Link to="/about" className={currentPage === '/about' ? 'nav-link active' : 'nav-link'}						
 						>A Propos</Link>										
 					</ul>
 				</nav>		
 			</div>
-		</div>
-		
+		</div>		
 	) 
 }
 export default Header
