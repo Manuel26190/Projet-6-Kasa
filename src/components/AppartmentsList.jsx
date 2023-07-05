@@ -1,4 +1,4 @@
-import Cart from "./Cart";
+import Card from "./Card";
 import data from '../datas/data.js';
 import '../styles/AppartmentsList.css';
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ function AppartmentList () {
             {data.map(({title, cover, id}) => 
                 <div className="div-cart" key={id}>
                     <Link to='/details'>
-                        <Cart
+                        <Card
                             title = {title}
                             cover = {cover}            
                         />

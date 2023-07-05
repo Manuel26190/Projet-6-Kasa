@@ -1,6 +1,6 @@
  import '../styles/Cart.css'; 
 
-function Cart ({title, cover}) { 
+function Card ({title, cover}) { 
 
     return (
         <div className='div-img'>
@@ -11,4 +11,4 @@ function Cart ({title, cover}) {
     )
 }
 
-export default Cart
+export default Card
