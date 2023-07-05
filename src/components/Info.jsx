@@ -3,19 +3,14 @@ import '../styles/Info.css';
 
 function Info ({descriptionButton, descriptionText, equipmentsButton, equipmentsList}) {
     return (
-        <div className="info-div">
-            <div className="dropdown">
+        <div className="info-div">            
                 <CollapseButton
                     buttonText={descriptionButton}
                     content={descriptionText}
-                />
-            </div>
-            <div className="dropdown">
-                <CollapseButton
+                />                <CollapseButton
                     buttonText={equipmentsButton}
                     content={equipmentsList}
-                />   
-            </div> 
+                />            
         </div>          
     )
 };

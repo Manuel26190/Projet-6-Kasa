@@ -1,1 +1,5 @@
-/*# sourceMappingURL=DetailsPage.css.map */
+.div-detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=DetailsPage.css.map */

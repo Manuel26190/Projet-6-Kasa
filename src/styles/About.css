@@ -1,6 +1,7 @@
 .div-about {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .div-about .about-img {
   height: 223px;

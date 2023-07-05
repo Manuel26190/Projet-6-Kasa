@@ -18,7 +18,7 @@ function CollapseButton ({buttonText, content}) {
 
     return isOpen ? ( 
                   
-        <div className={`${currentPage === '/details' ? 'collapse-div' : "collapse-div" }`}    >
+        <div className={`${currentPage === '/details' ? ' collapse-div' : "collapse-div" }`}    >
             <button className="open-collapse-button" onClick={handleClick}  >
                 {buttonText}
                 <FontAwesomeIcon
@@ -31,7 +31,7 @@ function CollapseButton ({buttonText, content}) {
             </div>                               
         </div>                                                   
 ) : (            
-        <div className={`${currentPage === '/details' ? 'collapse-div' : 'collapse-div ' }`} >
+        <div className={`${currentPage === '/details' ? ' collapse-div ' : 'collapse-div ' }`} >
             <button className="close-collapse-button" onClick={handleClick}>
                 {buttonText}
                 <FontAwesomeIcon

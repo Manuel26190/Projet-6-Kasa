@@ -15,9 +15,8 @@ function Details () {
         )       
     };    
     return (
-        <div>
-            {data.map((appart) => (
-                
+        <div className="div-detail-page">
+            {data.map((appart) => (                
                 <Info
                     descriptionButton={'Description'}
                     descriptionText={appart.description}

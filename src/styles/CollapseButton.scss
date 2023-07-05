@@ -10,12 +10,12 @@
         height: auto;                        
     }
   }
-.collapse-div{      
-   //width: 1023px;  
-   margin: 0px 20% 30px 20%;   
+
+.collapse-div{ 
+   width: 70%;  
+   margin-bottom: 30px;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
+   flex-direction: column;    
    background: var(--gray, #F6F6F6);
    border-radius: 10px;   
     .open-collapse-button{
@@ -65,11 +65,15 @@
     }     
 }
 
-.details-page{
-    border: 1px solid black;
-    //margin: 0 0 30px 0;
-    //width: 81%;    
-    }
+.details{
+    width: 40%;
+    border: 1px solid green;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;    
+    background: var(--gray, #F6F6F6);
+    border-radius: 10px;
+}
 
 
   
