@@ -14,7 +14,8 @@ function Details () {
     //if (!appartment) {
      //   return <Error />;
   //}
-  console.log(appartment)
+  //const equipmentsTest = appartment.equipments; 
+
     function equipmentsTable (equip) {
         return (
             <ul>

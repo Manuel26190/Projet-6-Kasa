@@ -4,6 +4,7 @@ import '../styles/CollapseButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { useLocation } from 'react-router-dom';
+import data from "../datas/data";
 
 function CollapseButton ({buttonText, content}) {    
     
@@ -26,10 +27,10 @@ function CollapseButton ({buttonText, content}) {
                     className="chevron-logo active"
                     icon={faChevronRight}
                 />            
-            </button>
+            </button>            
             <div className='collapse-div-text'>
                 <p className="collapse-text">{content}</p>
-            </div>                               
+            </div>                                               
         </div>                                                   
 ) : (            
         <div className={`${currentPage === '/details' ? ' collapse-div ' : 'collapse-div ' }`} >

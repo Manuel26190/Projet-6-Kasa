@@ -1,6 +1,7 @@
 import CollapseButton from "./CollapseButton";
 import '../styles/Info.css';
 import React from "react";
+import data from "../datas/data";
 
 function Info ({descriptionButton, descriptionText, equipmentsButton, equipmentsList}) {
     return (
@@ -9,11 +10,11 @@ function Info ({descriptionButton, descriptionText, equipmentsButton, equipments
                 <CollapseButton
                     buttonText={descriptionButton}
                     content={descriptionText}
-                />                
-                <CollapseButton
-                    buttonText={equipmentsButton}
-                    content={equipmentsList}
                 />            
+                <CollapseButton                
+                    buttonText={equipmentsButton}                
+                    content={equipmentsList}                
+            />                           
         </div>          
     )
 };
