@@ -26,7 +26,7 @@ function IsAbout (){
               id:4
         },
   ]; 
-  const isAbout = true;   
+     
     return (
         <div>            
             <div className="div-about">
@@ -36,8 +36,7 @@ function IsAbout (){
                 <CollapseButton 
                     key={content.id}
                     buttonText = {content.buttonText}
-                    content = {content.content}
-                    isAbout={imgAbout}                    
+                    content = {content.content}                                        
                 />
             ))};                       
                         

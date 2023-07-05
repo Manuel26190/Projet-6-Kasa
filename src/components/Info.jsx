@@ -1,19 +1,21 @@
 import CollapseButton from "./CollapseButton";
-import data from "../datas/data";
+import '../styles/Info.css';
 
-//console.log(data[0].equipments)
-
-function Info ({buttontext1, content1, buttontext2, content2}) {
+function Info ({descriptionButton, descriptionText, equipmentsButton, equipmentsList}) {
     return (
-        <div>
-            <CollapseButton
-                buttonText={buttontext1}
-                content={content1}
-            />
-            <CollapseButton
-                buttonText={buttontext2}
-                content={content2}
-            />            
+        <div className="info-div">
+            <div className="dropdown">
+                <CollapseButton
+                    buttonText={descriptionButton}
+                    content={descriptionText}
+                />
+            </div>
+            <div className="dropdown">
+                <CollapseButton
+                    buttonText={equipmentsButton}
+                    content={equipmentsList}
+                />   
+            </div> 
         </div>          
     )
 };
