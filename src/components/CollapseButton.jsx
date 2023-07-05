@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 import '../styles/CollapseButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';

@@ -2,37 +2,38 @@ import Info from "../../components/Info";
 import data from "../../datas/data";
 import '../../styles/DetailsPage.css';
 import React from "react";
-import { useParams } from 'react-router-dom';
 //import Error from "../Error/ErrorPage";
-  
+import { useParams } from "react-router-dom";
+
+
+//Fonction qui va chercher les données du tableau équipements se trouvant dans la data JSON, 
+//et créé une liste de chaque équipements (pour l'appartement selectionné)    
 function Details () {
     const { id } = useParams();
     const appartment = data.find((item) => item.id === id);
     //if (!appartment) {
-    //    return <Error />;
+     //   return <Error />;
   //}
-//Fonction qui va chercher les données du tableau équipements se trouvant dans la data JSON, 
-//et créé une liste de chaque équipements (pour l'appartement selectionné)
+  console.log(appartment)
     function equipmentsTable (equip) {
         return (
             <ul>
-                {equip.map((equip) => (
-                    <li>{equip}</li>
+                {data.map((equip, index) => (
+                    <li key={index}>{equip}</li>
                 ))}                
             </ul>
         )       
     };    
     return (
         <div className="div-detail-page">
-            {data.map((appart) => (
-                               
+                            
                 <Info
                     descriptionButton={'Description'}
-                    descriptionText={appart.description}
+                    descriptionText={appartment.description}
                     equipmentsButton={'Equipements'}
-                    equipmentsList={equipmentsTable(appart.equipments)}                
+                    equipmentsList={equipmentsTable(appartment.equipments)}                
                 />
-            ))};            
+                        
         </div>
     )
 };
