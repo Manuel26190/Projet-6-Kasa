@@ -1,3 +1,5 @@
+@import '../styles/Variables';
+
 .section-info{
     width: 86.1%;
     margin-bottom: 25px;
@@ -13,7 +15,7 @@
             justify-content: flex-end;
             align-items: center;
             p{
-                color: #FF6060;                
+                color: $primary-red-color;                
                 font-family: Montserrat;
                 font-size: 18px;
                 font-style: normal;
@@ -29,7 +31,7 @@
         }
     }
     h1{
-        color: #FF6060;
+        color: $primary-red-color;
         font-family: Montserrat;
         font-size: 33px;
         font-style: normal;
@@ -42,7 +44,7 @@
     }
 }
 .location{
-    color: #FF6060;
+    color: $primary-red-color;
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
@@ -57,10 +59,7 @@
     .div-tags{
         display: flex;
         column-gap: 3%;
-        width: 60%;
-        
-
-    }
+        width: 60%;    }
     p{
         color: #FFF;
         text-align: center;
@@ -69,7 +68,7 @@
         font-weight: 500;
         line-height: 142.6%;
         border-radius: 10px;
-        background: #FF6060;
+        background: $primary-red-color;
         width: 150px;
         height: 25px;        
         text-align: center;

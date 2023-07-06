@@ -16,7 +16,7 @@
   align-items: center;
 }
 .section-info .info-host-div .host-div p {
-  color: #FF6060;
+  color: #ff6060;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -30,7 +30,7 @@
   border-radius: 50%;
 }
 .section-info h1 {
-  color: #FF6060;
+  color: #ff6060;
   font-family: Montserrat;
   font-size: 33px;
   font-style: normal;
@@ -44,7 +44,7 @@
 }
 
 .location {
-  color: #FF6060;
+  color: #ff6060;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -72,7 +72,7 @@
   font-weight: 500;
   line-height: 142.6%;
   border-radius: 10px;
-  background: #FF6060;
+  background: #ff6060;
   width: 150px;
   height: 25px;
   text-align: center;
