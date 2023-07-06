@@ -15,7 +15,7 @@ function Details () {
   
 //Fonction qui va chercher les données du tableau équipements se trouvant dans la data JSON, 
 //et créé une liste de chaque équipements (pour l'appartement selectionné) 
-    function equipmentsTable (equip) {
+/*    function equipmentsTable (equip) {
         return (
             <ul>
                 {data.map((equip, index) => (
@@ -23,7 +23,8 @@ function Details () {
                 ))}                
             </ul>
         )       
-    };    
+    };
+*/    
     return (
         <div className="div-detail-page">
                             
