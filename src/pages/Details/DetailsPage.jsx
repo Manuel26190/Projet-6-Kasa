@@ -32,7 +32,10 @@ function Details () {
                     equipmentsList={appartment.equipments}
                     title={appartment.title}
                     hostName={appartment.host.name}
-                    hostPicture={appartment.host.picture}                
+                    hostPicture={appartment.host.picture}
+                    location={appartment.location}
+                    tags={appartment.tags}
+                    rating={appartment.rating}                
                 />                        
         </div>
     )
