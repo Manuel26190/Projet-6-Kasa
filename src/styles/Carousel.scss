@@ -1,12 +1,14 @@
+@import '../styles/Variables';
+
 .carousel-div{
     margin-top: 21px;  
     
     .carousel-img{
         height: 415px;
         width: 1240px;
-        border-radius: 25px;
-        background: lightgray 50%, cover no-repeat;  
+        border-radius: 25px;          
         object-fit: cover;        
         
     }    
 }
+

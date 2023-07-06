@@ -22,7 +22,7 @@ function Details () {
     return (
         <div className="div-detail-page">
                 <Carousel
-                    pictures={appartment.cover}
+                    pictures={appartment.pictures}
                     title={appartment.title}    
                 />            
                 <Info
