@@ -35,7 +35,7 @@ function Info ({descriptionButton,
             </div>           
             <div className="info-collapse-div">            
                     <CollapseButton
-                     buttonText={descriptionButton}
+                        buttonText={descriptionButton}
                         content={descriptionText} />            
                     <DropdownList 
                         buttonText={equipmentsButton}

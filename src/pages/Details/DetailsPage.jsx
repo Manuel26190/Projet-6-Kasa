@@ -15,7 +15,7 @@ function Details () {
     //Cet élément d'appartement est ensuite stocké dans la constante appartment.
     const { id } = useParams();
     const appartment = data.find((item) => item.id === id);    
-
+    
     if (!appartment) {
         return <Error />;
     }
@@ -36,7 +36,8 @@ function Details () {
                     location={appartment.location}
                     tags={appartment.tags}
                     rating={appartment.rating}                
-                />                        
+                />
+                                        
         </div>
     )
 };

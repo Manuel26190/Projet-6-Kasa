@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 20px 5px 20px;
+  cursor: pointer;
 }
 .collapse-div .collapse-text {
   padding: 0 20px 3px 20px;
@@ -56,6 +57,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 20px 5px 20px;
+  cursor: pointer;
 }
 .collapse-div .chevron-logo {
   margin-top: 9px;

@@ -21,6 +21,7 @@
   color: #FF6060;
   font-size: 24px;
   font-family: "Montserrat";
+  cursor: pointer;
 }
 .header-container .kasa-Header .active {
   text-decoration: underline;
