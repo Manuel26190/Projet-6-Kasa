@@ -2,6 +2,7 @@ import CollapseButton from "./CollapseButton";
 import '../styles/Info.css';
 import React from "react";
 import DropdownList from "./DropdownList";
+import Rating from "./Rating";
 
 function Info ({descriptionButton, 
                 descriptionText, 
@@ -23,12 +24,15 @@ function Info ({descriptionButton,
                 </div>                
             </div>
             <p className="location">{location}</p>
-            <div className="div-tag-rating">
-                <div className="div-tag">{tags}</div>
-                <div></div>
+            <div className="div-tags-rating">
+                <div className="div-tags">
+                    {tags.map((tag, index) => (
+                        <p key={index}>{tag}</p>
+                    ))}
 
-            </div>
-
+                </div>
+                <Rating rating={rating} />               
+            </div>           
             <div className="info-collapse-div">            
                     <CollapseButton
                      buttonText={descriptionButton}

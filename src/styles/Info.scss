@@ -1,5 +1,6 @@
 .section-info{
     width: 86.1%;
+    margin-bottom: 25px;
     .info-host-div{
         width: 100%;
         height: 65px;        
@@ -48,5 +49,32 @@
     font-weight: 500;
     height: 20px;
     margin-top: 0;
+}
+.div-tags-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .div-tags{
+        display: flex;
+        column-gap: 3%;
+        width: 60%;
+        
+
+    }
+    p{
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;    
+        font-weight: 500;
+        line-height: 142.6%;
+        border-radius: 10px;
+        background: #FF6060;
+        width: 150px;
+        height: 25px;        
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 24px;       
+    }
 }
 
