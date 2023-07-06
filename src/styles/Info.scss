@@ -1,6 +1,41 @@
-
-.info-div{
-    display: flex;        
-    width: 86%;    
-    column-gap: 7%;           
+.section-info{
+    width: 86.1%;
+    .info-host-div{
+        width: 100%;        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .host-div{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            p{
+                color: #FF6060;                
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;               
+                text-align: right;
+                margin-right: 6%;                                       
+            }
+            img{
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;                
+            }            
+        }
+    }
+    h1{
+        color: #FF6060;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;         
+    }    
+    .info-collapse-div{            
+        width: auto;    
+        column-gap: 7%;
+        display: flex;
+    }
 }
+
