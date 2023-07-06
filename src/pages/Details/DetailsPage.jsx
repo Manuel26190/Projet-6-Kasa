@@ -4,18 +4,17 @@ import '../../styles/DetailsPage.css';
 import React from "react";
 //import Error from "../Error/ErrorPage";
 import { useParams } from "react-router-dom";
-
-
-//Fonction qui va chercher les données du tableau équipements se trouvant dans la data JSON, 
-//et créé une liste de chaque équipements (pour l'appartement selectionné)    
+import Error from '../Error/ErrorPage'
+   
 function Details () {
     const { id } = useParams();
     const appartment = data.find((item) => item.id === id);
-    //if (!appartment) {
-     //   return <Error />;
-  //}
-  //const equipmentsTest = appartment.equipments; 
-
+    if (!appartment) {
+        return <Error />;
+    }
+  
+//Fonction qui va chercher les données du tableau équipements se trouvant dans la data JSON, 
+//et créé une liste de chaque équipements (pour l'appartement selectionné) 
     function equipmentsTable (equip) {
         return (
             <ul>
@@ -32,9 +31,8 @@ function Details () {
                     descriptionButton={'Description'}
                     descriptionText={appartment.description}
                     equipmentsButton={'Equipements'}
-                    equipmentsList={equipmentsTable(appartment.equipments)}                
-                />
-                        
+                    equipmentsList={appartment.equipments}                
+                />                        
         </div>
     )
 };

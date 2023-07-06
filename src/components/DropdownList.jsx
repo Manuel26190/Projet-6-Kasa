@@ -3,10 +3,8 @@ import React from "react";
 import '../styles/CollapseButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { useLocation } from 'react-router-dom';
 
-
-function CollapseButton ({buttonText, content}) {    
+function DropdownList ({buttonText, equipementsList}) {    
     
     const [isOpen, setIsOpen] = useState(false);
     
@@ -15,12 +13,9 @@ function CollapseButton ({buttonText, content}) {
     function handleClick () {
         setIsOpen(!isOpen)        
     };
-    const location = useLocation();//J'utilise UseLocation de react pour obtenir l'objet location qui contient des informations sur l'URL actuelle.
-    const currentPage = location.pathname;//j'extrais le chemin de l'URL avec location.pathname et je le stock dans la variable currentPage.  
 
-    return isOpen ? ( 
-                  
-        <div className={`${currentPage === '/details' ? ' collapse-div' : "collapse-div" }`}    >
+    return isOpen ? (                   
+        <div className="collapse-div">
             <button className="open-collapse-button" onClick={handleClick}  >
                 {buttonText}
                 <FontAwesomeIcon
@@ -28,12 +23,14 @@ function CollapseButton ({buttonText, content}) {
                     icon={faChevronRight}
                 />            
             </button>            
-            <div className='collapse-div-text'>
-                <p className="collapse-text">{content}</p>
-            </div>                                                           
+            <ul className='collapse-text'>
+                {equipementsList.map((item, index) => (
+                    <li key={index}>{item}</li>
+                ))}                
+            </ul>                                                           
         </div>                                                   
 ) : (            
-        <div className={`${currentPage === '/details' ? ' collapse-div ' : 'collapse-div ' }`} >
+        <div className='collapse-div'>
             <button className="close-collapse-button" onClick={handleClick}>
                 {buttonText}
                 <FontAwesomeIcon
@@ -43,7 +40,6 @@ function CollapseButton ({buttonText, content}) {
             </button>                        
         </div>               
     )        
-};          
+};
 
-export default CollapseButton
-
+export default DropdownList
