@@ -1,7 +1,32 @@
 .carousel-div {
   margin-top: 21px;
 }
-.carousel-div .carousel-img {
+.carousel-div .image-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.carousel-div .image-container .previous-button {
+  font-size: 79px;
+  width: 46px;
+  color: white;
+  position: absolute;
+  border: none;
+  background: transparent;
+  margin-left: 1%;
+  cursor: pointer;
+}
+.carousel-div .image-container .next-button {
+  font-size: 79px;
+  width: 46px;
+  color: white;
+  position: absolute;
+  margin-left: 94%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.carousel-div .image-container .carousel-img {
   height: 415px;
   width: 1240px;
   border-radius: 25px;

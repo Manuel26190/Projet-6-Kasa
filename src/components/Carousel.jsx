@@ -1,5 +1,8 @@
 import '../styles/Carousel.css';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight,faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+
 
 function Carousel({ pictures }) {
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -14,14 +17,21 @@ function Carousel({ pictures }) {
 
   return (
     <div className="carousel-div">
-      <button onClick={previousSlide}></button>
-      <img className='carousel-img' src={pictures[currentSlide]} alt="Slide" />
-      <button onClick={nextSlide}></button>
+      <div className="image-container">
+        <button className="previous-button" onClick={previousSlide}>
+            <FontAwesomeIcon icon={faChevronLeft} />         
+        </button>
+        <img className='carousel-img' src={pictures[currentSlide]} alt="Slide" />
+        <button className="next-button" onClick={nextSlide}>
+            <FontAwesomeIcon icon={faChevronRight} />
+        </button>
+      </div>
     </div>
   );
 }
 
 export default Carousel;
+
 
 /*
 Nous utilisons le hook d'état useState pour gérer l'index de la diapositive actuelle 
