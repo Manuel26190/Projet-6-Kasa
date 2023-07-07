@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import AppartmentList from "../../components/AppartmentsList";
+import React from "react";
 
 function HomePage() {
   return (        
@@ -8,6 +9,6 @@ function HomePage() {
             <AppartmentList />            
         </div> 
   );
-}
+};
 
 export default HomePage

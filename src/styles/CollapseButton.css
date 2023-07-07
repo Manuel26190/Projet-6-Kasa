@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*Styles des menus déroulants de la page A Propos et sur la page details*/
 @keyframes slidein {
   from {
     opacity: 0;
@@ -17,12 +19,12 @@
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  background: var(--gray, #F6F6F6);
+  background: var(--gray, #f6f6f6);
   border-radius: 15px;
 }
 .collapse-div .open-collapse-button {
-  background: #FF6060;
-  color: #FFFFFF;
+  background: #ff6060;
+  color: white;
   border: none;
   font-size: 24px;
   font-family: Montserrat;
@@ -38,17 +40,18 @@
   padding: 0 20px 3px 20px;
   animation-duration: 1s;
   animation-name: slidein;
-  color: #FF6060;
+  color: #ff6060;
   font-size: 18px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   line-height: 142.6%;
+  list-style-type: none;
 }
 .collapse-div .close-collapse-button {
-  background: #FF6060;
+  background: #ff6060;
   border: none;
-  color: #FFFFFF;
+  color: white;
   font-size: 24px;
   font-family: Montserrat;
   font-weight: 500;
@@ -66,14 +69,4 @@
 }
 .collapse-div .chevron-logo.active {
   transform: rotate(-270deg);
-}
-
-.details {
-  width: 40%;
-  border: 1px solid green;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  background: var(--gray, #F6F6F6);
-  border-radius: 10px;
 }/*# sourceMappingURL=CollapseButton.css.map */

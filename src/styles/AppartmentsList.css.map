@@ -1,1 +1,1 @@
-{"version":3,"sources":["AppartmentsList.scss","AppartmentsList.css"],"names":[],"mappings":"AAAA;EACC,qBAAA;EACA,aAAA;EACA,eAAA;EACA,uBAAA;EACG,aAAA;EACA,2BAAA;EACA,UAAA;EACA,aAAA;EACA,qBAAA;OAAA,gBAAA;ACCJ;ADAI;EACI,qBAAA;ACER","file":"AppartmentsList.css"}
+{"version":3,"sources":["AppartmentsList.scss","AppartmentsList.css"],"names":[],"mappings":"AAAA,mEAAA;AAEA;EACC,qBAAA;EACA,aAAA;EACA,eAAA;EACA,uBAAA;EACG,aAAA;EACA,2BAAA;EACA,UAAA;EACA,aAAA;EACA,qBAAA;OAAA,gBAAA;ACAJ;ADCI;EACI,qBAAA;ACCR","file":"AppartmentsList.css"}

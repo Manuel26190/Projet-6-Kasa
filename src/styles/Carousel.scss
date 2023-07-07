@@ -1,3 +1,5 @@
+/*Styles du caroussel de la page details des appartements*/
+
 @import '../styles/Variables';
 
 .carousel-div{
@@ -9,7 +11,7 @@
        .previous-button{
             font-size: 79px;
             width: 46px;
-            color:#ffff ;
+            color:$primary-white-color ;
             position: absolute;
             border: none;            
             background: transparent;
@@ -19,7 +21,7 @@
        .next-button{
             font-size: 79px;
             width: 46px;
-            color: #ffff;
+            color: $primary-white-color;
             position: absolute;            
             margin-left: 94%;
             border: none;
@@ -32,8 +34,6 @@
             border-radius: 25px;          
             object-fit: cover;                    
         }   
-    }  
-    
-      
+    }      
 }
 

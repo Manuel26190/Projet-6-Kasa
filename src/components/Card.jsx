@@ -1,4 +1,4 @@
- import '../styles/Cart.css';
+ import '../styles/Card.css';
  import { Link } from "react-router-dom";
  import React from 'react';
 

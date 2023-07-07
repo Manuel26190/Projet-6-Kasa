@@ -1,6 +1,7 @@
 import imgAbout from '../../assets/img-about.jpg';
 import CollapseButton from "../../components/CollapseButton";
 import '../../styles/About.css'; 
+import React from 'react';
 
 function IsAbout (){
 
@@ -39,7 +40,6 @@ function IsAbout (){
                     content = {content.content}                                        
                 />
             ))};                       
-                        
         </div>        
     )
 };

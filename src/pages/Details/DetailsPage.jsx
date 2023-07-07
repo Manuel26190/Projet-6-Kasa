@@ -36,8 +36,7 @@ function Details () {
                     location={appartment.location}
                     tags={appartment.tags}
                     rating={appartment.rating}                
-                />
-                                        
+                />                                        
         </div>
     )
 };
