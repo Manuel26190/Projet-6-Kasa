@@ -4,17 +4,20 @@ import '../styles/Rating.css';
 import React from 'react';
 
 function Rating ({rating}) {
-    
+  //La fonction Rating retourne un conteneur <div> 
+  //qui affiche les icônes générées en appelant la fonction renderIcons.   
     const renderIcons = () => {
         const icons = [];
-    
+//Boucle for qui itère de 1 à 5, puis je vérifie si "i" est inférieur ou égale à rating. 
+//Si c'est le cas, j'attribue la couleur #FF6060 à l'icone sinon la coucleur #E3E3E3.
+//J'ajoute l'icone a un tableau "icons" en utilisant <FontAwesomeIcon> avec l'icône d'étoile et la couleur correspondante.        
         for (let i = 1; i <= 5; i++) {
           const iconColor = i <= rating ? '#FF6060' : '#E3E3E3';
           icons.push(
             <span className='icon' key={i}>
                 <FontAwesomeIcon              
-                icon={faStar}
-                color={iconColor} />
+                  icon={faStar}
+                  color={iconColor} />
             </span>            
           );
         }    
@@ -25,15 +28,7 @@ function Rating ({rating}) {
           {renderIcons()}
         </div>
       );    
-}
+};
 
 export default Rating
 
-//Nous utilisons une boucle for pour itérer de 1 à 5, 
-//puis nous vérifions si i est inférieur ou égal à rating. 
-//Si c'est le cas, nous attribuons la couleur 'red' à l'icône, 
-//sinon nous attribuons la couleur 'gray'. 
-//Ensuite, nous ajoutons l'icône à un tableau icons en utilisant 
-//<FontAwesomeIcon> avec l'icône d'étoile et la couleur correspondante.
-//Finalement, la fonction IconDisplay retourne un conteneur <div> 
-//qui affiche les icônes générées en appelant la fonction renderIcons.

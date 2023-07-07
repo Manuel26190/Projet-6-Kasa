@@ -1,8 +1,7 @@
 import Card from "./Card";
 import data from '../datas/data.js';
 import '../styles/AppartmentsList.css';
-
-
+import React from "react";
 
 function AppartmentList () {    
    
@@ -19,6 +18,6 @@ function AppartmentList () {
             ))}            
         </ul>
     )
-}
+};
 
 export default AppartmentList

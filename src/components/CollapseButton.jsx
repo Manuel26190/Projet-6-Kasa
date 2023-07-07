@@ -3,29 +3,25 @@ import React from "react";
 import '../styles/CollapseButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { useLocation } from 'react-router-dom';
-
 
 function CollapseButton ({buttonText, content}) {    
     
     const [isOpen, setIsOpen] = useState(false);
     
-    //Function pour gérer un évenement au click, elle inverse la valeur actuelle de isOpen. 
+    //Function handleClick pour gérer un évenement au click, elle inverse la valeur actuelle de isOpen. 
     //si isOpen est true, il deviendra false, et vice versa. 
     function handleClick () {
-        setIsOpen(!isOpen)        
-    };
-    const location = useLocation();//J'utilise UseLocation de react pour obtenir l'objet location qui contient des informations sur l'URL actuelle.
-    const currentPage = location.pathname;//j'extrais le chemin de l'URL avec location.pathname et je le stock dans la variable currentPage.  
+        setIsOpen(!isOpen) 
+    };    
 
     return isOpen ? ( 
                   
-        <div className={`${currentPage === '/details' ? ' collapse-div' : "collapse-div" }`}    >
-            <button className="open-collapse-button" onClick={handleClick}  >
+        <div className='collapse-div'>
+            <button className="open-collapse-button" onClick={handleClick}>
                 {buttonText}
-                <FontAwesomeIcon
-                    className="chevron-logo active"
-                    icon={faChevronRight}
+                <FontAwesomeIcon 
+                    className="chevron-logo active" 
+                    icon={faChevronRight} 
                 />            
             </button>            
             <div className='collapse-div-text'>
@@ -33,7 +29,7 @@ function CollapseButton ({buttonText, content}) {
             </div>                                                           
         </div>                                                   
 ) : (            
-        <div className={`${currentPage === '/details' ? ' collapse-div ' : 'collapse-div ' }`} >
+        <div className='collapse-div'>
             <button className="close-collapse-button" onClick={handleClick}>
                 {buttonText}
                 <FontAwesomeIcon

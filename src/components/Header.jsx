@@ -5,7 +5,7 @@ import '../pages/Home/HomePage.jsx';
 import '../pages/About/AboutPage.jsx';
 import { useLocation } from 'react-router-dom';  
 
-function Header({}) {
+function Header() {
 	
 	const location = useLocation();
   const currentPage = location.pathname;  
@@ -18,14 +18,16 @@ function Header({}) {
 				</Link>				
 				<nav className='kasa-nav'>
 					<ul className='kasa-ul'>
-						<Link to='/' className={currentPage === '/'? 'nav-link active' : 'nav-link'}        				 
-						>Accueil</Link>
-						<Link to="/about" className={currentPage === '/about' ? 'nav-link active' : 'nav-link'}						
-						>A Propos</Link>										
+						<Link to='/' className={currentPage === '/'? 'nav-link active' : 'nav-link'}> 
+							Accueil
+						</Link>
+						<Link to="/about" className={currentPage === '/about' ? 'nav-link active' : 'nav-link'}>						
+							A Propos
+						</Link>										
 					</ul>
 				</nav>		
 			</div>
 		</div>		
 	) 
-}
+};
 export default Header

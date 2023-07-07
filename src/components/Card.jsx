@@ -13,10 +13,6 @@ function Card ({title, cover, id}) {
             </div>
         </Link>         
     )
-}
+};
 
 export default Card
-
-/*
-{`/details/${id}`}
-*/

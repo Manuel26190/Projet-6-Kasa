@@ -8,7 +8,7 @@ function DropdownList ({buttonText, equipementsList}) {
     
     const [isOpen, setIsOpen] = useState(false);
     
-    //Function pour gérer un évenement au click, elle inverse la valeur actuelle de isOpen. 
+    //Function handleClick pour gérer un évenement au click, elle inverse la valeur actuelle de isOpen. 
     //si isOpen est true, il deviendra false, et vice versa. 
     function handleClick () {
         setIsOpen(!isOpen)        

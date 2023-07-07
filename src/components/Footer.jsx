@@ -1,5 +1,6 @@
 import Whitelogo from  '../assets/LOGO-kasa-white.svg';
-import '../styles/Footer.css'
+import '../styles/Footer.css';
+import React from 'react';
 
 function Footer () {
     return (
@@ -10,6 +11,6 @@ function Footer () {
             </div>
         </section>
     )
-}
+};
 
 export default Footer
