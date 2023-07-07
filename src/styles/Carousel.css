@@ -17,6 +17,9 @@
   margin-left: 1%;
   cursor: pointer;
 }
+.carousel-div .image-container .active {
+  visibility: hidden;
+}
 .carousel-div .image-container .next-button {
   font-size: 79px;
   width: 46px;

@@ -20,16 +20,16 @@ L'image affichée est basée sur l'URL correspondante à l'index currentSlide da
 //avant d'utiliser le modulo pour gérer correctement les boucles de retour en arrière.
   const previousSlide = () => {
     setCurrentSlide((currentSlide - 1 + pictures.length) % pictures.length);
-  };
+  };  
 
   return (
     <div className="carousel-div">
       <div className="image-container">
-        <button className="previous-button" onClick={previousSlide}>
+        <button className={pictures.length === 1 ? 'previous-button active' : 'previous-button'} onClick={previousSlide}>
             <FontAwesomeIcon icon={faChevronLeft} />         
         </button>
         <img className='carousel-img' src={pictures[currentSlide]} alt="Slide" />
-        <button className="next-button" onClick={nextSlide}>
+        <button className={pictures.length === 1 ? 'next-button active' : 'next-button'} onClick={nextSlide}>
             <FontAwesomeIcon icon={faChevronRight} />
         </button>
       </div>

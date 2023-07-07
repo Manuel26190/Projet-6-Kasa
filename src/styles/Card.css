@@ -10,11 +10,12 @@
   align-items: end;
 }
 .li-cart h2 {
-  color: #ffffff;
-  text-shadow: 1px 1px 1px black;
-  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+  font-size: 20px;
   font-family: Montserrat;
   font-weight: 500;
   line-height: 142.6%;
   margin: auto 20px 20px 20px;
+  width: 70%;
 }/*# sourceMappingURL=Card.css.map */
