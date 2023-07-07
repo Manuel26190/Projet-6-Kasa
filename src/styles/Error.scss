@@ -1,5 +1,9 @@
+/*Styles de la page Error*/
+
+@import '../styles/Variables';
+
 .div-error{    
-    color: #FF6060;    
+    color: $primary-red-color;    
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -11,7 +15,7 @@
         margin: 66px 0 0 0;                
     }
     .text-error{
-        color: #FF6060;
+        color: $primary-red-color;
         font-size: 36px;
         font-family: Montserrat;
         font-weight: 500;

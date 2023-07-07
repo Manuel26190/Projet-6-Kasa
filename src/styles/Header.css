@@ -1,3 +1,4 @@
+/*Styles du composant Header*/
 .header-container {
   display: flex;
   justify-content: center;
@@ -18,7 +19,7 @@
 }
 .header-container .kasa-Header .nav-link {
   text-decoration: none;
-  color: #FF6060;
+  color: #ff6060;
   font-size: 24px;
   font-family: "Montserrat";
   cursor: pointer;

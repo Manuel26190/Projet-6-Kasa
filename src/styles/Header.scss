@@ -1,3 +1,7 @@
+/*Styles du composant Header*/
+
+@import '../styles/Variables';
+
 .header-container{
     display: flex;
     justify-content: center;
@@ -16,14 +20,12 @@
         }
         .nav-link {
             text-decoration: none;
-            color: #FF6060;    
+            color: $primary-red-color;    
             font-size: 24px;
             font-family: 'Montserrat';
-            cursor: pointer;
-            
+            cursor: pointer;            
         }.active {
             text-decoration: underline;
-        }     
-            
+        }          
     }
 }

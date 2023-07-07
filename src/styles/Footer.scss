@@ -1,16 +1,15 @@
+/*Styles du composant Footer*/
+
 .footer-section{
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    height: 209px;            
-    
+    align-items: center;    
+    height: 209px;    
     .footer-div{      
       text-align: center;
-      margin-top: 53px;
-            
+      margin-top: 53px;            
     }   
     .kasa-white-logo{
         width: 122px;

@@ -1,3 +1,5 @@
+/*Styles du composant Info*/
+
 @import '../styles/Variables';
 
 .section-info{
@@ -59,9 +61,10 @@
     .div-tags{
         display: flex;
         column-gap: 3%;
-        width: 60%;    }
+        width: 60%;    
+    }
     p{
-        color: #FFF;
+        color: $primary-white-color;
         text-align: center;
         font-family: Montserrat;
         font-size: 14px;    

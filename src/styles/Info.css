@@ -1,3 +1,4 @@
+/*Styles du composant Info*/
 .section-info {
   width: 86.1%;
   margin-bottom: 25px;
@@ -65,7 +66,7 @@
   width: 60%;
 }
 .div-tags-rating p {
-  color: #FFF;
+  color: white;
   text-align: center;
   font-family: Montserrat;
   font-size: 14px;

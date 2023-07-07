@@ -1,5 +1,6 @@
+/*Styles de la page Error*/
 .div-error {
-  color: #FF6060;
+  color: #ff6060;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +13,7 @@
   margin: 66px 0 0 0;
 }
 .div-error .text-error {
-  color: #FF6060;
+  color: #ff6060;
   font-size: 36px;
   font-family: Montserrat;
   font-weight: 500;
