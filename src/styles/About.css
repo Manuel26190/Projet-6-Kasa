@@ -3,13 +3,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  margin: auto;
 }
-.div-about .about-img {
+.div-about .div-img {
+  width: 100%;
+}
+.div-about .div-img .about-img {
   height: 223px;
-  width: 1240px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
   margin-top: 26px;
   margin-bottom: 38px;
+}
+
+@media (max-width: 1000px) {
+  .div-about {
+    margin: auto;
+    padding-right: 50%;
+    margin-right: 50%;
+  }
 }/*# sourceMappingURL=About.css.map */
