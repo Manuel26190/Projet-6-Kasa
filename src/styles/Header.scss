@@ -24,14 +24,14 @@
             display: flex;
             justify-content: end;
             width: 100%;                  
-            font-weight: 500;            
-            //column-gap: 57px;
+            font-weight: 500;           
             font-size: 24px;
             font-family: 'Montserrat';
-            padding-left: 0;        
-        } .kasa-ul li {
-            margin-left: 5%;           
-        }
+            padding-left: 0;
+            li {
+                margin-left: 5%;           
+            }        
+        } 
         .nav-link {
             text-decoration: none;
             color: $primary-red-color;            
@@ -49,18 +49,22 @@
         display: flex;
         .kasa-header{
             display: flex;            
-            justify-content: flex-start;            
-        }                          
+            justify-content: flex-start;
+            .nav-link {
+                font-size: 17px;
+            }
+            .kasa-ul{        
+                 display: flex;
+                 justify-content: flex-end;
+                 border: 5px soliud green;                 
+                 margin: 0;
+                 li{
+                    margin-left: 15%;                   
+                 }
+            }              
+        }
+                                
     }    
-    .nav-link {
-        font-size: 17px;                  
-        
-    }
-    .kasa-ul{  
-        
-         display: flex;
-         justify-content: flex-start;         
-                            
-    }
+    
       
 }

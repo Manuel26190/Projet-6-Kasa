@@ -6,13 +6,10 @@
     flex-direction: column;
     justify-content: center;
     height: 209px;
-    width: auto;
-    //width: 100%;    
-        
+    width: auto;       
     .footer-div{      
       text-align: center;
-      margin-top: 53px;
-                 
+      margin-top: 53px;                 
     }   
     .kasa-white-logo{
         width: 122px;
@@ -29,8 +26,25 @@
     }
 }
 
+//Partie Responsive//
+
 @media (max-width: 1000px) {
     .footer-section{
-        width: 100%;
+        margin: 0 -10% 0 -10%;
+        display: flex;        
+        align-items: center;                
+        .footer-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            p{
+                font-size: 12px;
+                width: 60%;
+                text-align: center;
+                margin-top: 7%;
+            }
+        }        
     }
 }

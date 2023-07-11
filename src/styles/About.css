@@ -17,12 +17,4 @@
   border-radius: 25px;
   margin-top: 26px;
   margin-bottom: 38px;
-}
-
-@media (max-width: 1000px) {
-  .div-about {
-    margin: auto;
-    padding-right: 50%;
-    margin-right: 50%;
-  }
 }/*# sourceMappingURL=About.css.map */

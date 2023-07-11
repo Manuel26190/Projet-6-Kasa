@@ -50,11 +50,16 @@
     display: flex;
     justify-content: flex-start;
   }
-  .nav-link {
+  .header-container .kasa-header .nav-link {
     font-size: 17px;
   }
-  .kasa-ul {
+  .header-container .kasa-header .kasa-ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    border: 5px soliud green;
+    margin: 0;
+  }
+  .header-container .kasa-header .kasa-ul li {
+    margin-left: 15%;
   }
 }/*# sourceMappingURL=Header.css.map */
