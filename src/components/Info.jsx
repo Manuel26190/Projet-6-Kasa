@@ -1,7 +1,6 @@
 import CollapseButton from "./CollapseButton";
 import '../styles/Info.css';
 import React from "react";
-import DropdownList from "./DropdownList";
 import Rating from "./Rating";
 
 function Info ({descriptionButton, 
@@ -14,6 +13,16 @@ function Info ({descriptionButton,
                 location,
                 tags,
                 rating}) {
+
+                    function equipmentsTable (equip) {
+                        return (
+                            <ul>
+                                {equip.map((equip) => (
+                                    <li>{equip}</li>
+                                ))}                
+                            </ul>
+                        )       
+                    };
     return (
         <section className="section-info">
             <div className="info-host-div">
@@ -37,9 +46,10 @@ function Info ({descriptionButton,
                     <CollapseButton
                         buttonText={descriptionButton}
                         content={descriptionText} />            
-                    <DropdownList 
+                    <CollapseButton
                         buttonText={equipmentsButton}
-                        equipementsList={equipmentsList} />                           
+                        content={equipmentsTable(equipmentsList)}
+                    />                          
             </div>
         </section>                  
     )

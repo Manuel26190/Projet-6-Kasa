@@ -5,9 +5,9 @@ import { faChevronRight,faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
 function Carousel({ pictures }) {
 /*
-Nous utilisons le hook d'état useState pour gérer l'index de la diapositive actuelle 
+j'utilise le useState pour gérer l'index de la diapositive actuelle 
 avec la variable currentSlide. Lorsque l'utilisateur clique sur les boutons "Previous" ou "Next",
- nous mettons à jour currentSlide en conséquence.
+currentSlide se met à jour en conséquence.
 L'image affichée est basée sur l'URL correspondante à l'index currentSlide dans le tableau pictures.
 */
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -20,7 +20,10 @@ L'image affichée est basée sur l'URL correspondante à l'index currentSlide da
 //avant d'utiliser le modulo pour gérer correctement les boucles de retour en arrière.
   const previousSlide = () => {
     setCurrentSlide((currentSlide - 1 + pictures.length) % pictures.length);
-  };  
+  }; 
+  
+  console.log(currentSlide);
+  console.log(pictures.length)
 
   return (
     <div className="carousel-div">
@@ -29,9 +32,11 @@ L'image affichée est basée sur l'URL correspondante à l'index currentSlide da
             <FontAwesomeIcon icon={faChevronLeft} />         
         </button>
         <img className='carousel-img' src={pictures[currentSlide]} alt="Slide" />
+        <p>{currentSlide + 1}/{pictures.length}</p>
         <button className={pictures.length === 1 ? 'next-button active' : 'next-button'} onClick={nextSlide}>
             <FontAwesomeIcon icon={faChevronRight} />
         </button>
+        
       </div>
     </div>
   );

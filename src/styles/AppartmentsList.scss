@@ -1,16 +1,28 @@
 /*Styles du placement des cards appartements sur la page d'accueil*/
+@import '../styles/Variables';
 
 .ul-cart {
 	list-style-type: none;	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-    width: 1240px;    
+    width: 100%;    
     margin: 99px auto 93px auto;
-    padding: 0;
+    padding: 56px 0 43px 0;
     row-gap: 50px;
     column-gap: 60px;
+    background: $primary-grey-background-color;
+    border-radius: 25px ;    
     a{
         text-decoration: none;
     }    
+}
+
+//Responsive//
+@media (max-width: 1000px) {
+    .ul-cart{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }

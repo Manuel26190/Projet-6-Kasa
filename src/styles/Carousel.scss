@@ -29,13 +29,25 @@
             margin-left: 94%;
             border: none;
             background: transparent;
-            cursor: pointer;
+            cursor: pointer;            
        }
        .carousel-img{
             height: 415px;
             width: 1240px;
             border-radius: 25px;          
             object-fit: cover;                    
+        }
+        p{
+          position: absolute;
+          width: 100%;
+          margin-top: 29%;
+          color: $primary-white-color;
+          text-shadow: 1px 1px 1px grey;          
+          text-align: center;
+          font-family: Montserrat;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;          
         }   
     }      
 }

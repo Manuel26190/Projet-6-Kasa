@@ -36,4 +36,16 @@
   border-radius: 25px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.carousel-div .image-container p {
+  position: absolute;
+  width: 100%;
+  margin-top: 29%;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
 }/*# sourceMappingURL=Carousel.css.map */

@@ -5,12 +5,12 @@
     from {
       opacity: 0;
       visibility: hidden;      
-      margin-top: -2%;                  
+      margin-top: -5%;                  
     }  
     to {
         opacity: 1;
         visibility: visible;        
-        margin-top: 1.7%;                        
+        margin-top: 0%;                        
     }
   }
 .collapse-div{ 
@@ -35,8 +35,8 @@
         cursor: pointer;
     }
     .collapse-text{
-        padding: 0 20px 3px 20px;        
-        animation-duration: 0.5s;
+        padding: 25px 20px 3px 20px;        
+        animation-duration: 0.3s;        
         animation-name: slidein;
         color: $primary-red-color;    
         font-size: 18px;
@@ -44,8 +44,9 @@
         font-style: normal;
         font-weight: 500;
         line-height: 142.6%;
-        list-style-type: none;
-        transition: all 0.5s ease-in-out ;        
+        list-style-type: none;                
+    }ul{        
+        margin-top: 0%;
     }
     .close-collapse-button{
         background: $primary-red-color;

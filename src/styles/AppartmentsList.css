@@ -4,13 +4,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1240px;
+  width: 100%;
   margin: 99px auto 93px auto;
-  padding: 0;
+  padding: 56px 0 43px 0;
   row-gap: 50px;
   -moz-column-gap: 60px;
        column-gap: 60px;
+  background: #f6f6f6;
+  border-radius: 25px;
 }
 .ul-cart a {
   text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .ul-cart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=AppartmentsList.css.map */
