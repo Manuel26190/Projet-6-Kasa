@@ -5,8 +5,8 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin: 99px auto 93px auto;
-  padding: 56px 0 43px 0;
+  margin: 3.5% auto 4% auto;
+  padding: 4.5% 0 3.5% 0;
   row-gap: 50px;
   -moz-column-gap: 60px;
        column-gap: 60px;
@@ -22,5 +22,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
   }
 }/*# sourceMappingURL=AppartmentsList.css.map */
