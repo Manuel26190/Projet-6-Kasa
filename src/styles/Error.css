@@ -26,4 +26,13 @@
   font-weight: 500;
   text-decoration: none;
   margin-bottom: 139px;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 96px;
+  }
+  .text-error {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=Error.css.map */

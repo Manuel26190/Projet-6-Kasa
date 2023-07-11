@@ -18,13 +18,12 @@
     }    
 }
 
-//Responsive//
+//Partie Responsive//
 @media (max-width: 1000px) {
     .ul-cart{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        //justify-content: center;
+        flex-wrap: wrap;        
         align-items: center;
     }
 }

@@ -30,3 +30,14 @@
         margin-bottom: 139px;                 
     }
 }
+//Partie Responsive//
+
+@media(max-width: 1000px){
+    h1{
+        
+        font-size: 96px;               
+    }
+    .text-error{
+        font-size: 18px;
+    }
+}
