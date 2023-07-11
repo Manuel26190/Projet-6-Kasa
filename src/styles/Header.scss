@@ -17,18 +17,20 @@
         height: 68px;
         margin: auto;
         .kasa-nav{
-            //width: 100%;
+            width: 100%;
         }       
         .kasa-ul{
+            list-style-type: none;
             display: flex;
+            justify-content: end;
             width: 100%;                  
             font-weight: 500;            
-            //column-gap: 50%;
+            //column-gap: 57px;
             font-size: 24px;
-            font-family: 'Montserrat';        
-        } .kasa-ul a {
-            border: 1px solid black;
-            //width: 70%;            
+            font-family: 'Montserrat';
+            padding-left: 0;        
+        } .kasa-ul li {
+            margin-left: 5%;           
         }
         .nav-link {
             text-decoration: none;
@@ -47,28 +49,20 @@
         display: flex;
         .kasa-header{
             display: flex;            
-            justify-content: flex-start;
-            
+            justify-content: flex-start;            
         }                          
     }
     
     .nav-link {
         font-size: 17px;
-        background: blue;        
+        background: rgb(6, 156, 69);               
         
     }
     .kasa-ul{        
         background: red;
-        margin: 0; 
-        padding: 0;       
-        //display: flex;
-        //align-items: center;
-        //justify-content: space-around;
-        //width: 100%;
-        column-gap: 5px;
-
-        
-                     
+         display: flex;
+         justify-content: flex-start;         
+                            
     }
       
 }

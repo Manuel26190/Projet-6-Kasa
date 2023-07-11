@@ -15,15 +15,21 @@
   height: 68px;
   margin: auto;
 }
+.header-container .kasa-header .kasa-nav {
+  width: 100%;
+}
 .header-container .kasa-header .kasa-ul {
+  list-style-type: none;
   display: flex;
+  justify-content: end;
   width: 100%;
   font-weight: 500;
   font-size: 24px;
   font-family: "Montserrat";
+  padding-left: 0;
 }
-.header-container .kasa-header .kasa-ul a {
-  border: 1px solid black;
+.header-container .kasa-header .kasa-ul li {
+  margin-left: 5%;
 }
 .header-container .kasa-header .nav-link {
   text-decoration: none;
@@ -46,13 +52,11 @@
   }
   .nav-link {
     font-size: 17px;
-    background: blue;
+    background: rgb(6, 156, 69);
   }
   .kasa-ul {
     background: red;
-    margin: 0;
-    padding: 0;
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    display: flex;
+    justify-content: flex-start;
   }
 }/*# sourceMappingURL=Header.css.map */

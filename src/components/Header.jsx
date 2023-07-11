@@ -18,12 +18,16 @@ function Header() {
 				</Link>				
 				<nav className='kasa-nav'>
 					<ul className='kasa-ul'>
+						<li>
 						<Link to='/' className={currentPage === '/'? 'nav-link active' : 'nav-link'}> 
 							Accueil
 						</Link>
+						</li>
+						<li>
 						<Link to="/about" className={currentPage === '/about' ? 'nav-link active' : 'nav-link'}>						
 							A Propos
-						</Link>										
+						</Link>
+						</li>																
 					</ul>
 				</nav>		
 			</div>
