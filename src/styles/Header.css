@@ -45,21 +45,22 @@
     width: 100%;
     height: auto;
     display: flex;
+    padding: 0;
   }
   .header-container .kasa-header {
     display: flex;
     justify-content: flex-start;
   }
   .header-container .kasa-header .nav-link {
-    font-size: 17px;
+    font-size: 12px;
   }
   .header-container .kasa-header .kasa-ul {
     display: flex;
     justify-content: flex-end;
-    border: 5px soliud green;
     margin: 0;
   }
   .header-container .kasa-header .kasa-ul li {
     margin-left: 15%;
+    text-transform: uppercase;
   }
 }/*# sourceMappingURL=Header.css.map */

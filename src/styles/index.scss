@@ -8,7 +8,7 @@
   
   body {
     max-width: 1240px;
-    margin: auto;
+    margin: auto;    
   }
   #root {
     display: flex;
@@ -18,6 +18,6 @@
 
   @media (max-width:$breakpoint-tablet){
     body{
-        margin: auto 5% auto 5%;
+        margin: auto 1% auto 5%;
     }
   }
