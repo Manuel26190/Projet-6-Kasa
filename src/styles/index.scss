@@ -3,8 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf');
-  }
-  
+  }  
   
   body {
     max-width: 1240px;
@@ -13,11 +12,7 @@
   #root {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    //min-height: 100vh;
   }
 
-  @media (max-width:$breakpoint-tablet){
-    body{
-        //margin: auto 1% auto 5%;
-    }
-  }
+  

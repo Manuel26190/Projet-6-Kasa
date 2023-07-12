@@ -1,7 +1,7 @@
 /*Styles du placement des cards appartements sur la page d'accueil*/
 @import '../styles/Variables';
 
-.ul-cart {
+.ul-card {
 	list-style-type: none;	
 	display: flex;
 	flex-wrap: wrap;
@@ -20,10 +20,11 @@
 
 //Partie Responsive//
 @media (max-width: 1000px) {
-    .ul-cart{
+    .ul-card{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;        
-        align-items: center;
+        align-items: center;   
+         
     }
 }

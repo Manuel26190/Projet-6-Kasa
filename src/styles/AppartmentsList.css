@@ -1,5 +1,5 @@
 /*Styles du placement des cards appartements sur la page d'accueil*/
-.ul-cart {
+.ul-card {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -13,12 +13,12 @@
   background: #f6f6f6;
   border-radius: 25px;
 }
-.ul-cart a {
+.ul-card a {
   text-decoration: none;
 }
 
 @media (max-width: 1000px) {
-  .ul-cart {
+  .ul-card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

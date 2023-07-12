@@ -6,9 +6,9 @@ import React from "react";
 function AppartmentList () {    
    
     return (
-        <ul className="ul-cart">
+        <ul className="ul-card">
             {data.map((appartment) => ( 
-                <div className="div-cart" key={appartment.id}>                    
+                <div className="div-card" key={appartment.id}>                    
                     <Card                        
                         title = {appartment.title}
                         cover = {appartment.cover}

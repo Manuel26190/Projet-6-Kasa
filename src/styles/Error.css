@@ -33,12 +33,15 @@
   }
   .div-error p {
     font-size: 96px;
+    margin-top: 90px;
   }
   .div-error .text-error {
     font-size: 18px;
     text-align: center;
+    margin-top: 90px;
   }
   .div-error a {
     font-size: 14px;
+    margin-top: 65px;
   }
 }/*# sourceMappingURL=Error.css.map */
