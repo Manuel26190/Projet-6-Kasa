@@ -15,6 +15,9 @@
   height: 68px;
   margin: auto;
 }
+.header-container .kasa-header img {
+  height: 68px;
+}
 .header-container .kasa-header .kasa-nav {
   width: 100%;
 }
@@ -45,22 +48,24 @@
     width: 100%;
     height: auto;
     display: flex;
-    padding: 0;
   }
   .header-container .kasa-header {
     display: flex;
     justify-content: flex-start;
+    margin: 0 5% 0 5%;
+  }
+  .header-container .kasa-header img {
+    height: 40px;
   }
   .header-container .kasa-header .nav-link {
     font-size: 12px;
   }
   .header-container .kasa-header .kasa-ul {
     display: flex;
-    justify-content: flex-end;
     margin: 0;
   }
   .header-container .kasa-header .kasa-ul li {
-    margin-left: 15%;
+    margin-left: 11%;
     text-transform: uppercase;
   }
 }/*# sourceMappingURL=Header.css.map */

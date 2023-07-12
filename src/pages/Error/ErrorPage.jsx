@@ -3,9 +3,10 @@ import '../../styles/Error.css';
 import React from "react";
 
 function Error () {
-    return (                 
+    return (  
+                       
         <div className="div-error">
-            <h1>404</h1>
+            <p>404</p>
             <p className="text-error">Oups! La page que vous avez demandez n'existe pas.</p>
             <Link to='/'>Retourner sur la page d'accueil</Link>
         </div>        
