@@ -38,7 +38,6 @@ function Info ({descriptionButton,
                     {tags.map((tag, index) => (
                         <p key={index}>{tag}</p>
                     ))}
-
                 </div>
                 <Rating rating={rating} />               
             </div>           

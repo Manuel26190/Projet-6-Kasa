@@ -1,82 +1,98 @@
 /*Styles du composant Info*/
 
 @import '../styles/Variables';
-
-.section-info{
-    width: 86.1%;
-    margin-bottom: 25px;
-    .info-host-div{
+article{
+    width: 100%;    
+    .section-info{        
         width: 100%;
-        height: 65px;        
+        height: 200px;
+        margin-bottom: 25px;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 1.5%;
-        .host-div{
+        .info-host-div{
+            width: 100%;
+            height: 65px;        
             display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            p{
-                color: $primary-red-color;                
+            flex-direction: column;
+            //justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 1.5%;
+            h1{
+                color: $primary-red-color;
+                font-family: Montserrat;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 500;         
+            }
+            .location{
+                color: $primary-red-color;
                 font-family: Montserrat;
                 font-size: 18px;
                 font-style: normal;
-                font-weight: 500;               
-                text-align: right;
-                margin-right: 6%;                                       
+                font-weight: 500;
+                height: 20px;
+                margin-top: 0;
             }
-            img{
-                width: 64px;
-                height: 64px;
-                border-radius: 50%;                
+            .div-tags-rating{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .div-tags{
+                    display: flex;
+                    column-gap: 3%;
+                    width: 80%;    
+                }
+                p{
+                    color: $primary-white-color;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 14px;    
+                    font-weight: 500;
+                    line-height: 142.6%;
+                    border-radius: 10px;
+                    background: $primary-red-color;
+                    width: 150px;
+                    height: 25px;        
+                    text-align: center;
+                    line-height: 25px;
+                    margin-bottom: 24px;       
+                }
             }            
         }
+        
+        .host-div-box{
+            display: flex;
+            flex-direction: column;            
+            .host-div{                
+                display: flex;           
+                align-items: center;
+                p{
+                    color: $primary-red-color;                
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;               
+                    text-align: right;
+                    margin-right: 6%;                                       
+                }
+                img{
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 50%;                
+                }            
+            } 
+        }   
+        
     }
-    h1{
-        color: $primary-red-color;
-        font-family: Montserrat;
-        font-size: 33px;
-        font-style: normal;
-        font-weight: 500;         
-    }    
     .info-collapse-div{            
         width: auto;    
         column-gap: 7%;
-        display: flex;        
-    }
-}
-.location{
-    color: $primary-red-color;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    height: 20px;
-    margin-top: 0;
-}
-.div-tags-rating{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .div-tags{
         display: flex;
-        column-gap: 3%;
-        width: 60%;    
+                   
     }
-    p{
-        color: $primary-white-color;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 14px;    
-        font-weight: 500;
-        line-height: 142.6%;
-        border-radius: 10px;
-        background: $primary-red-color;
-        width: 150px;
-        height: 25px;        
-        text-align: center;
-        line-height: 25px;
-        margin-bottom: 24px;       
-    }
+    
+}
+
+@media(max-width: 768px) {
+    
 }
 

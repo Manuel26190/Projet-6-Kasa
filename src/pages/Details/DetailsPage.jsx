@@ -1,4 +1,5 @@
-import Info from "../../components/Info";
+//import Info from "../../components/Info";
+import Infobis from "../../components/InfoBis";
 import data from "../../datas/data";
 import '../../styles/DetailsPage.css';
 import React from "react";
@@ -25,7 +26,7 @@ function Details () {
                     pictures={appartment.pictures}
                     title={appartment.title}    
                 />            
-                <Info
+                <Infobis
                     descriptionButton={'Description'}
                     descriptionText={appartment.description}
                     equipmentsButton={'Equipements'}
@@ -36,7 +37,8 @@ function Details () {
                     location={appartment.location}
                     tags={appartment.tags}
                     rating={appartment.rating}                
-                />                                        
+                />
+                                                        
         </div>
     )
 };
