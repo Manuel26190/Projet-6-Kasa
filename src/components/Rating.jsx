@@ -24,7 +24,7 @@ function Rating ({rating}) {
         return icons;
       };    
       return (
-        <div>
+        <div className='icon-div'>
           {renderIcons()}
         </div>
       );    

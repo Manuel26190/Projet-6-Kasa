@@ -2,7 +2,7 @@
 
 @import '../styles/Variables';
 article{
-    width: 100%;
+    width: 86.1%;
     margin: auto;
     display: flex;  
     flex-direction: column;  
@@ -65,12 +65,13 @@ article{
         }        
         .host-div-box{
             display: flex;
-            flex-direction: column;            
-            height: 100%;
+            flex-direction: column; 
+            width: 250px;
             margin-top: 1.5%;                        
             .host-div{                
                 display: flex;           
-                align-items: center;                
+                align-items: center;
+                justify-content: end;                
                 p{
                     color: $primary-red-color;                
                     font-family: Montserrat;
@@ -78,7 +79,8 @@ article{
                     font-style: normal;
                     font-weight: 500;               
                     text-align: right;
-                    margin-right: 6%;                                       
+                    margin-right: 6%;
+                    width: 30%;                                       
                 }
                 img{
                     width: 64px;
@@ -87,15 +89,15 @@ article{
                 }            
             }
             .rating-div{
-                margin-top: 16%;                
+                margin-top: 12%;                                
             } 
-        }   
-        
+        }       
     }
     .info-collapse-div{            
         width: auto;    
         column-gap: 7%;
-        display: flex;                          
+        display: flex;
+        margin-bottom: 1%;                          
     }    
 }
 

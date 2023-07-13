@@ -2,8 +2,12 @@
 
 @import '../styles/Variables';
 
-.icon{
-    font-size: 25px;
-    font-weight: bold;   
-    
+.icon-div{
+    display: flex;
+    justify-content: space-around;
+    .icon{
+        font-size: 25px;
+        font-weight: bold;       
+    }
 }
+

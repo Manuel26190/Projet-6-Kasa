@@ -1,6 +1,6 @@
 /*Styles du composant Info*/
 article {
-  width: 100%;
+  width: 86.1%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -66,12 +66,13 @@ article .section-info .info-host-div .div-tags-rating p {
 article .section-info .host-div-box {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  width: 250px;
   margin-top: 1.5%;
 }
 article .section-info .host-div-box .host-div {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 article .section-info .host-div-box .host-div p {
   color: #ff6060;
@@ -81,6 +82,7 @@ article .section-info .host-div-box .host-div p {
   font-weight: 500;
   text-align: right;
   margin-right: 6%;
+  width: 30%;
 }
 article .section-info .host-div-box .host-div img {
   width: 64px;
@@ -88,11 +90,12 @@ article .section-info .host-div-box .host-div img {
   border-radius: 50%;
 }
 article .section-info .host-div-box .rating-div {
-  margin-top: 16%;
+  margin-top: 12%;
 }
 article .info-collapse-div {
   width: auto;
   -moz-column-gap: 7%;
        column-gap: 7%;
   display: flex;
+  margin-bottom: 1%;
 }/*# sourceMappingURL=Info.css.map */

@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     height: 209px;
-    width: auto;       
+    width: 100%;       
     .footer-div{      
       text-align: center;
       margin-top: 53px;                 
@@ -30,7 +30,6 @@
 
 @media (max-width: 1000px) {
     .footer-section{
-        //margin-left: -10%;
         display: flex;        
         align-items: center;
         height: 209px;                

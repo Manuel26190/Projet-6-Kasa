@@ -1,5 +1,9 @@
 /*Styles du composant Rating*/
-.icon {
+.icon-div {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-div .icon {
   font-size: 25px;
   font-weight: bold;
 }/*# sourceMappingURL=Rating.css.map */
