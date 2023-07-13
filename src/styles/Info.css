@@ -142,6 +142,8 @@ article .section-collapse .info-collapse-div {
   article .section-info .host-div-box .host-div p {
     font-size: 12px;
     margin-top: 0;
+    margin-right: 11%;
+    width: 35%;
   }
   article .section-info .host-div-box .host-div img {
     width: 32px;
