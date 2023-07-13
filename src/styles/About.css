@@ -17,4 +17,10 @@
   border-radius: 25px;
   margin-top: 26px;
   margin-bottom: 38px;
+}
+
+@media (max-width: 1000px) {
+  .div-about {
+    width: 93%;
+  }
 }/*# sourceMappingURL=About.css.map */

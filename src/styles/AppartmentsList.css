@@ -13,6 +13,10 @@
   background: #f6f6f6;
   border-radius: 25px;
 }
+.ul-card div-card {
+  width: 100%;
+  height: auto;
+}
 .ul-card a {
   text-decoration: none;
 }
