@@ -3,4 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .div-detail-page {
+    padding: 4%;
+  }
 }/*# sourceMappingURL=DetailsPage.css.map */

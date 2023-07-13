@@ -3,7 +3,7 @@ import '../styles/Info.css';
 import React from "react";
 import Rating from "./Rating";
 
-function Infobis ({descriptionButton, 
+function Infos ({descriptionButton, 
     descriptionText, 
     equipmentsButton, 
     equipmentsList,
@@ -65,4 +65,4 @@ function Infobis ({descriptionButton,
     
 };
 
-export default Infobis
+export default Infos

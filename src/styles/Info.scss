@@ -117,17 +117,21 @@ article{
                 height: auto;
                 h1{
                     font-size: 18px;
+                    font-weight: 600;
                 }
                 .location{
                     font-size: 14px;
+                    margin-top: 1%;
                 }
                 .div-tags-rating{                    
                     .div-tags{
-                        margin-top: 1%;
+                        margin-top: 0.8%;
+                        
                         width: 70%;                                                
                         p{
                             font-size: 10px;
                             border-radius: 5px;
+                            margin-bottom: 4%;
                     }
                 }
             }

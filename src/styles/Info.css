@@ -115,17 +115,20 @@ article .section-collapse .info-collapse-div {
   }
   article .section-info .info-host-div h1 {
     font-size: 18px;
+    font-weight: 600;
   }
   article .section-info .info-host-div .location {
     font-size: 14px;
+    margin-top: 1%;
   }
   article .section-info .info-host-div .div-tags-rating .div-tags {
-    margin-top: 1%;
+    margin-top: 0.8%;
     width: 70%;
   }
   article .section-info .info-host-div .div-tags-rating .div-tags p {
     font-size: 10px;
     border-radius: 5px;
+    margin-bottom: 4%;
   }
   article .section-info .host-div-box {
     flex-direction: row-reverse;

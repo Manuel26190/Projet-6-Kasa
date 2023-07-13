@@ -1,5 +1,5 @@
 //import Info from "../../components/Info";
-import Infobis from "../../components/InfoBis";
+import Infos from "../../components/Infos";
 import data from "../../datas/data";
 import '../../styles/DetailsPage.css';
 import React from "react";
@@ -26,7 +26,7 @@ function Details () {
                     pictures={appartment.pictures}
                     title={appartment.title}    
                 />            
-                <Infobis
+                <Infos
                     descriptionButton={'Description'}
                     descriptionText={appartment.description}
                     equipmentsButton={'Equipements'}
