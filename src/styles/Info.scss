@@ -7,7 +7,7 @@ article{
     display: flex;  
     flex-direction: column;  
     .section-info{        
-        width: 100%;
+        width: auto;
         height: 150px;        
         margin-bottom: 25px;
         display: flex;        
@@ -101,7 +101,58 @@ article{
     }    
 }
 
+//Partie responsive//
+
 @media(max-width: 768px) {
+    article{        
+        width: 100%;
+        .section-info{
+            flex-direction: column;            
+            .info-host-div{
+                height: auto;
+                h1{
+                    font-size: 18px;
+                }
+                .location{
+                    font-size: 14px;
+                }
+                .div-tags-rating{                    
+                    .div-tags{
+                        margin-top: 1%;
+                        width: 70%;                                                
+                        p{
+                            font-size: 10px;
+                            border-radius: 5px;
+                    }
+                }
+            }
+        }
+        .host-div-box{
+            flex-direction: row-reverse;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 0%;            
+            .host-div{
+                align-items: flex-start;
+                p{
+                    font-size: 12px;
+                    margin-top: 0;
+                }
+                img{
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;  
+                }            
+            }
+            .rating-div{                
+                margin-top: 2.5%;               
+            }
+        }
+    }   
     
+    .info-collapse-div{
+         margin-top: 35%;
+        }
+    }
 }
 

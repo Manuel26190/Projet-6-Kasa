@@ -35,8 +35,7 @@ L'image affichée est basée sur l'URL correspondante à l'index currentSlide da
         <p>{currentSlide + 1}/{pictures.length}</p>
         <button className={pictures.length === 1 ? 'next-button active' : 'next-button'} onClick={nextSlide}>
             <FontAwesomeIcon icon={faChevronRight} />
-        </button>
-        
+        </button>        
       </div>
     </div>
   );

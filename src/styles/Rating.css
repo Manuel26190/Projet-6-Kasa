@@ -6,4 +6,13 @@
 .icon-div .icon {
   font-size: 25px;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .icon-div {
+    width: 140%;
+  }
+  .icon-div .icon {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=Rating.css.map */

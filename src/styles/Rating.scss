@@ -5,9 +5,22 @@
 .icon-div{
     display: flex;
     justify-content: space-around;
+    
     .icon{
         font-size: 25px;
         font-weight: bold;       
+    }
+}
+
+//Partie responsive//
+@media(max-width: 768px) {
+    
+    .icon-div{
+        width: 140%;
+        //margin-top: 0;
+        .icon{
+            font-size: 18px;
+        }
     }
 }
 

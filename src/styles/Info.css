@@ -6,7 +6,7 @@ article {
   flex-direction: column;
 }
 article .section-info {
-  width: 100%;
+  width: auto;
   height: 150px;
   margin-bottom: 25px;
   display: flex;
@@ -98,4 +98,54 @@ article .info-collapse-div {
        column-gap: 7%;
   display: flex;
   margin-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+  article {
+    width: 100%;
+  }
+  article .section-info {
+    flex-direction: column;
+  }
+  article .section-info .info-host-div {
+    height: auto;
+  }
+  article .section-info .info-host-div h1 {
+    font-size: 18px;
+  }
+  article .section-info .info-host-div .location {
+    font-size: 14px;
+  }
+  article .section-info .info-host-div .div-tags-rating .div-tags {
+    margin-top: 1%;
+    width: 70%;
+  }
+  article .section-info .info-host-div .div-tags-rating .div-tags p {
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  article .section-info .host-div-box {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0%;
+  }
+  article .section-info .host-div-box .host-div {
+    align-items: flex-start;
+  }
+  article .section-info .host-div-box .host-div p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  article .section-info .host-div-box .host-div img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  article .section-info .host-div-box .rating-div {
+    margin-top: 2.5%;
+  }
+  article .info-collapse-div {
+    margin-top: 35%;
+  }
 }/*# sourceMappingURL=Info.css.map */
