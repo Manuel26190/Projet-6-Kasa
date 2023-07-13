@@ -1,10 +1,13 @@
 /*Styles du composant Info*/
 article {
   width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 article .section-info {
   width: 100%;
-  height: 200px;
+  height: 150px;
   margin-bottom: 25px;
   display: flex;
 }
@@ -22,6 +25,7 @@ article .section-info .info-host-div h1 {
   font-size: 33px;
   font-style: normal;
   font-weight: 500;
+  margin: 1% 0 1% 0;
 }
 article .section-info .info-host-div .location {
   color: #ff6060;
@@ -30,7 +34,7 @@ article .section-info .info-host-div .location {
   font-style: normal;
   font-weight: 500;
   height: 20px;
-  margin-top: 0;
+  margin: 0;
 }
 article .section-info .info-host-div .div-tags-rating {
   display: flex;
@@ -41,7 +45,8 @@ article .section-info .info-host-div .div-tags-rating .div-tags {
   display: flex;
   -moz-column-gap: 3%;
        column-gap: 3%;
-  width: 80%;
+  width: 85%;
+  margin-top: 2.5%;
 }
 article .section-info .info-host-div .div-tags-rating p {
   color: white;
@@ -61,6 +66,8 @@ article .section-info .info-host-div .div-tags-rating p {
 article .section-info .host-div-box {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  margin-top: 1.5%;
 }
 article .section-info .host-div-box .host-div {
   display: flex;
@@ -79,6 +86,9 @@ article .section-info .host-div-box .host-div img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+}
+article .section-info .host-div-box .rating-div {
+  margin-top: 16%;
 }
 article .info-collapse-div {
   width: auto;

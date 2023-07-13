@@ -42,7 +42,10 @@ function Infobis ({descriptionButton,
                         <p>{hostName}</p>
                         <img src={hostPicture} alt={title}/>                        
                     </div>
-                    <Rating rating={rating} />                           
+                    <div className="rating-div">
+                        <Rating rating={rating} />
+                    </div>
+                                               
                 </div>            
             </section>
             <section className="section_collapse">
