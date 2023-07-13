@@ -18,8 +18,7 @@
    margin-bottom: 30px;
    display: flex;
    flex-direction: column;    
-   background: var(--gray, $primary-grey-background-color);
-   border-radius: 15px;   
+   background: var(--gray, $primary-grey-background-color);     
     .open-collapse-button{
         background: $primary-red-color;
         color: $primary-white-color;
@@ -72,14 +71,19 @@
     }     
 }
 //Partie responsive//
-@media (max-width: 1000px) { 
+@media (max-width: 768px) {
+    .section-collapse{
+        
+    }
     .collapse-div{
-        //width: 100%;
+       
+        
         .open-collapse-button{
-            //width: 100%;            
+            border-radius: 5px ;           
+                       
         }
         .close-collapse-button{
-            //width: 100%;            
+            border-radius: 5px ;                        
         }
     }
     

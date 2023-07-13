@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: column;
   background: var(--gray, #f6f6f6);
-  border-radius: 15px;
 }
 .collapse-div .open-collapse-button {
   background: #ff6060;
@@ -70,4 +69,13 @@
 }
 .collapse-div .chevron-logo.active {
   transform: rotate(-270deg);
+}
+
+@media (max-width: 768px) {
+  .collapse-div .open-collapse-button {
+    border-radius: 5px;
+  }
+  .collapse-div .close-collapse-button {
+    border-radius: 5px;
+  }
 }/*# sourceMappingURL=CollapseButton.css.map */

@@ -48,7 +48,7 @@ function Infobis ({descriptionButton,
                                                
                 </div>            
             </section>
-            <section className="section_collapse">
+            <section className="section-collapse">
                 <div className="info-collapse-div">            
                     <CollapseButton
                         buttonText={descriptionButton}

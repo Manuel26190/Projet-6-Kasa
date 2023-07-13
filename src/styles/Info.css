@@ -92,8 +92,11 @@ article .section-info .host-div-box .host-div img {
 article .section-info .host-div-box .rating-div {
   margin-top: 12%;
 }
-article .info-collapse-div {
-  width: auto;
+article .section-collapse {
+  width: 100%;
+}
+article .section-collapse .info-collapse-div {
+  width: 100%;
   -moz-column-gap: 7%;
        column-gap: 7%;
   display: flex;
