@@ -6,10 +6,10 @@
   width: 100%;
   margin: auto;
 }
-.div-about .div-img {
+.div-about .div-img-about {
   width: 100%;
 }
-.div-about .div-img .about-img {
+.div-about .div-img-about .about-img {
   height: 223px;
   width: 100%;
   -o-object-fit: cover;

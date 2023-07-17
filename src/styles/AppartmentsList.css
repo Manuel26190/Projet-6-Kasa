@@ -21,6 +21,9 @@
 }
 
 @media (max-width: 768px) {
+  .section-card {
+    width: 92%;
+  }
   .section-card .card {
     width: 100%;
     flex-direction: column;

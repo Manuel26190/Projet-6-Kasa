@@ -30,7 +30,7 @@ function IsAbout (){
      
     return (
         <div className="div-about" >            
-            <div className='div-img'>
+            <div className='div-img-about'>
                 <img className="about-img" src={imgAbout} alt="photographie de haute montagne"/>
             </div>
             {contentList.map((content) => (

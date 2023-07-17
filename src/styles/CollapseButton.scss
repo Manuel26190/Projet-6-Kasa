@@ -18,7 +18,7 @@
    margin-bottom: 2.9%;
    display: flex;
    flex-direction: column;
-   border-radius: 10px;
+   
     .open-collapse-button{
         z-index: 1;
         background: $primary-red-color;
@@ -35,12 +35,13 @@
         cursor: pointer;        
     }
     .collapse-text{
+        height: 100%;
         z-index: -1;
         padding: 3% 3% 3% 5%;
         animation-duration: 0.5s;        
         animation-name: slidein;
-        background: var(--gray, $primary-grey-background-color);      
-        
+        background: var(--gray, $primary-grey-background-color); 
+        border-radius: 10px;        
         color: $primary-red-color;    
         font-size: 18px;
         font-family: Montserrat;

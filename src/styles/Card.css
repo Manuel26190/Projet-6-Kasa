@@ -2,6 +2,7 @@
 .div-img {
   width: 100%;
   height: 340px;
+  position: relative;
 }
 .div-img .img {
   -o-object-fit: cover;
@@ -15,7 +16,9 @@
   font-size: 20px;
   font-family: Montserrat;
   font-weight: 500;
-  line-height: 142.6%;
-  margin: auto 20px 20px 20px;
+  width: 70%;
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
   width: 70%;
 }/*# sourceMappingURL=Card.css.map */
