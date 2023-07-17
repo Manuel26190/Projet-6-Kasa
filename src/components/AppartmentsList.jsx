@@ -6,7 +6,7 @@ import React from "react";
 function AppartmentList () {    
    
     return (
-        <ul className="ul-card">
+        <section className="section-card">
             {data.map((appartment) => ( 
                 <div className="div-card" key={appartment.id}>                    
                     <Card                        
@@ -16,7 +16,7 @@ function AppartmentList () {
                     />                                      
                 </div>                
             ))}            
-        </ul>
+        </section>
     )
 };
 

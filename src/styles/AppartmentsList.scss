@@ -1,11 +1,11 @@
 /*Styles du placement des cards appartements sur la page d'accueil*/
 @import '../styles/Variables';
 
-.ul-card {
-	list-style-type: none;	
+.section-card {		
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;	
+	//justify-content: center;
     width: 86.1%;    
     margin: 3.5% auto 4% auto;
     padding: 3.9% 0 3.5% 0;
@@ -13,24 +13,11 @@
     column-gap: 60px;
     background: $primary-grey-background-color;
     border-radius: 25px ;
-    div-card{
-        width: 100%;
-        height: auto;
-        //width: 340px;
-        //height: 340px;
-    }    
+       
     a{
-        text-decoration: none;
+        text-decoration: none;        
     }    
 }
 
 //Partie Responsive//
-@media (max-width: 1000px) {
-    .ul-card{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;        
-        align-items: center;   
-         
-    }
-}
+

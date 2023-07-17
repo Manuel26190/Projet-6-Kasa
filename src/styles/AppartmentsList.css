@@ -1,9 +1,8 @@
 /*Styles du placement des cards appartements sur la page d'accueil*/
-.ul-card {
-  list-style-type: none;
+.section-card {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   width: 86.1%;
   margin: 3.5% auto 4% auto;
   padding: 3.9% 0 3.5% 0;
@@ -13,19 +12,6 @@
   background: #f6f6f6;
   border-radius: 25px;
 }
-.ul-card div-card {
-  width: 100%;
-  height: auto;
-}
-.ul-card a {
+.section-card a {
   text-decoration: none;
-}
-
-@media (max-width: 1000px) {
-  .ul-card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
 }/*# sourceMappingURL=AppartmentsList.css.map */

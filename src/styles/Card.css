@@ -1,20 +1,15 @@
 /*Style des photos et titres des appartements de la page d'accueil*/
 .div-img {
-  display: flex;
-  width: 340px;
+  width: 27.5%;
   height: 340px;
 }
-.div-img .li-card {
-  background-size: cover;
+.div-img .img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 100%;
-  width: 100%;
   border-radius: 10px;
-  display: flex;
-  align-items: end;
+  width: 100%;
 }
-.div-img .li-card h2 {
+.div-img h2 {
   color: white;
   text-shadow: 1px 1px 1px grey;
   font-size: 20px;
@@ -23,20 +18,4 @@
   line-height: 142.6%;
   margin: auto 20px 20px 20px;
   width: 70%;
-}
-
-@media (max-width: 1000px) {
-  .div-img {
-    height: 780px;
-    width: 780px;
-  }
-  .li-card {
-    height: 100%;
-    width: 100%;
-  }
-  h2 {
-    font-size: 20px;
-    width: 100%;
-    margin: 0;
-  }
 }/*# sourceMappingURL=Card.css.map */
