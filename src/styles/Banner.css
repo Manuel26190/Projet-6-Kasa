@@ -18,18 +18,30 @@
   border-radius: 25px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .div-banner {
     justify-content: flex-start;
     height: 111px;
     border-radius: 10px;
-    background-size: 610px;
+    background-size: 760px;
+    background-position: 58% 110%;
+    width: 92%;
+  }
+  .div-banner h1 {
+    font-size: 32px;
+    width: 60%;
+    margin-left: 6%;
+  }
+}
+@media (max-width: 768px) {
+  .div-banner {
+    background-size: 710px;
     background-position: 58% 110%;
     width: 92%;
   }
   .div-banner h1 {
     font-size: 24px;
-    width: 60%;
+    width: 65%;
     margin-left: 6%;
   }
 }/*# sourceMappingURL=Banner.css.map */

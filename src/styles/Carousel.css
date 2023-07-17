@@ -9,15 +9,6 @@
   position: relative;
   width: 100%;
 }
-.carousel-div .image-container img {
-  transition: opacity 0.5s;
-}
-.carousel-div .image-container img.fade-out {
-  opacity: 0;
-}
-.carousel-div .image-container img.fade-in {
-  opacity: 1;
-}
 .carousel-div .image-container .previous-button {
   font-size: 79px;
   width: 46px;
@@ -25,8 +16,10 @@
   position: absolute;
   border: none;
   background: transparent;
-  margin-left: 1%;
+  left: 2.5%;
   cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
 .carousel-div .image-container .active {
   visibility: hidden;
@@ -36,10 +29,12 @@
   width: 46px;
   color: white;
   position: absolute;
-  margin-left: 94%;
+  right: 2.5%;
   border: none;
   background: transparent;
   cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
 .carousel-div .image-container .carousel-img {
   height: 415px;
@@ -51,7 +46,7 @@
 .carousel-div .image-container p {
   position: absolute;
   width: 100%;
-  margin-top: 29%;
+  bottom: 2%;
   color: white;
   text-shadow: 1px 1px 1px grey;
   text-align: center;
@@ -61,6 +56,11 @@
   font-weight: 500;
 }
 
+@media (max-width: 1000px) {
+  .carousel-div .image-container .next-button {
+    right: 3%;
+  }
+}
 @media (max-width: 768px) {
   .carousel-div {
     width: 100%;

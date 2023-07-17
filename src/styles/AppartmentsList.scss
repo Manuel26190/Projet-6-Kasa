@@ -14,8 +14,7 @@
     background: $primary-grey-background-color;
     border-radius: 25px ;
     .card{
-        width: 27.5%;        
-    }
+        width: 27.5%;    }
        
     a{
         text-decoration: none;        
@@ -23,6 +22,18 @@
 }
 
 //Partie Responsive//
+@media(max-width: 1000px){
+    .section-card{
+            width: 92%;
+            margin-top: 0;
+        .card{
+            width: 100%;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }   
+}
+
 @media(max-width: 768px){
     .section-card{
             width: 92%;
@@ -31,9 +42,6 @@
             flex-direction: column;
             flex-wrap: nowrap;
         }
-
-    }
-    
-    
+    }   
 }
 

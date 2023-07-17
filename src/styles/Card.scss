@@ -28,7 +28,21 @@
 
 //Partie Responsive//
 
+@media(max-width: 1000px){
+    .div-img{
+        h2{
+            font-size: 24px;
+        }
+    }    
+}
 
+@media(max-width: 768px){
+    .div-img{
+        h2{
+            font-size: 18px;
+        }
+    }    
+}
 
 
 

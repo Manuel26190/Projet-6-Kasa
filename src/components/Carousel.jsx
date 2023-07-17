@@ -20,10 +20,7 @@ L'image affichée est basée sur l'URL correspondante à l'index currentSlide da
 //avant d'utiliser le modulo pour gérer correctement les boucles de retour en arrière.
   const previousSlide = () => {
     setCurrentSlide((currentSlide - 1 + pictures.length) % pictures.length);
-  }; 
-  
-  console.log(currentSlide);
-  console.log(pictures.length)
+  };   
 
   return (
     <div className="carousel-div">

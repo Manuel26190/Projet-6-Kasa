@@ -10,16 +10,7 @@
        display: flex;
        align-items: center;
        position: relative;
-       width: 100%;
-       img{
-          transition: opacity 0.5s;
-       }
-       img.fade-out{
-          opacity: 0;
-       }
-       img.fade-in{
-          opacity: 1;
-       }                    
+       width: 100%;                                
        .previous-button{
             font-size: 79px;
             width: 46px;
@@ -27,8 +18,10 @@
             position: absolute;
             border: none;            
             background: transparent;
-            margin-left: 1%;
+            left: 2.5%;
             cursor: pointer;
+            padding: 0;
+            margin: 0;
        }
        .active{
           visibility: hidden;
@@ -37,11 +30,14 @@
             font-size: 79px;
             width: 46px;
             color: $primary-white-color;
-            position: absolute;            
-            margin-left: 94%;
+            position: absolute;  
+            
+            right: 2.5%;
             border: none;
             background: transparent;
-            cursor: pointer;            
+            cursor: pointer;
+            padding: 0;
+            margin: 0;            
        }
        .carousel-img{
             height: 415px;
@@ -52,7 +48,7 @@
         p{
           position: absolute;
           width: 100%;
-          margin-top: 29%;
+          bottom: 2%;
           color: $primary-white-color;
           text-shadow: 1px 1px 1px grey;          
           text-align: center;
@@ -63,6 +59,17 @@
         }   
     }      
 }
+ //Partie responsive//
+@media(max-width: 1000px){
+   .carousel-div{
+      .image-container{
+         .next-button{
+            right: 3%;            
+         }
+      }   
+   }
+}
+
 
 @media(max-width: 768px) {
      .carousel-div{
@@ -71,7 +78,7 @@
           .image-container {
               .carousel-img {
                   height: 255px;
-              }
+              }              
           }
      }
 }

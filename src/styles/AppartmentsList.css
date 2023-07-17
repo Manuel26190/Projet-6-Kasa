@@ -20,6 +20,17 @@
   text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+  .section-card {
+    width: 92%;
+    margin-top: 0;
+  }
+  .section-card .card {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
 @media (max-width: 768px) {
   .section-card {
     width: 92%;
