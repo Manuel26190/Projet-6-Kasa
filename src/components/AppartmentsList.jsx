@@ -8,7 +8,7 @@ function AppartmentList () {
     return (
         <section className="section-card">
             {data.map((appartment) => ( 
-                <div className="div-card" key={appartment.id}>                    
+                <div className="card" key={appartment.id}>                    
                     <Card                        
                         title = {appartment.title}
                         cover = {appartment.cover}
