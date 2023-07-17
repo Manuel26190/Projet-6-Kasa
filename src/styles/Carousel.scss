@@ -1,32 +1,6 @@
 /*Styles du caroussel de la page details des appartements*/
 
 @import '../styles/Variables';
-/*
-@keyframes slider {
-     from {
-       opacity: 0;
-       visibility: hidden;      
-       margin-top: -5%;                  
-     }  
-     to {
-         opacity: 1;
-         visibility: visible;        
-         margin-top: 0%;                        
-     }
-   }
-   */
-   @keyframes slider {
-     0% {
-       opacity: 0;
-       visibility: hidden;
-       left: 0px;
-     }
-     100% {
-      opacity: 1;
-       left: -1800px;
-       visibility: visible;
-     }
-   }
 
 
 .carousel-div{
@@ -36,9 +10,16 @@
        display: flex;
        align-items: center;
        position: relative;
-       width: 100%;       
-       animation-name: slider;
-       animation-duration: 2s;             
+       width: 100%;
+       img{
+          transition: opacity 0.5s;
+       }
+       img.fade-out{
+          opacity: 0;
+       }
+       img.fade-in{
+          opacity: 1;
+       }                    
        .previous-button{
             font-size: 79px;
             width: 46px;
