@@ -9,6 +9,7 @@
      object-fit: cover;
   border-radius: 10px;
   width: 100%;
+  filter: brightness(80%);
 }
 .div-img h2 {
   color: white;
