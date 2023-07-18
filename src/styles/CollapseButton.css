@@ -33,12 +33,10 @@
   padding: 5px 20px 5px 20px;
   cursor: pointer;
 }
-.collapse-div .collapse-text {
+.collapse-div .collapse-div-text {
   height: 100%;
   z-index: -1;
   padding: 3% 3% 3% 5%;
-  animation-duration: 0.5s;
-  animation-name: slidein;
   background: var(--gray, #f6f6f6);
   border-radius: 10px;
   color: #ff6060;
@@ -48,6 +46,8 @@
   font-weight: 500;
   line-height: 142.6%;
   list-style-type: none;
+  animation-duration: 0.5s;
+  animation-name: slidein;
 }
 .collapse-div ul {
   margin-top: 0%;
@@ -76,8 +76,11 @@
 }
 
 @media (max-width: 768px) {
+  .section-collapse {
+    margin-top: -3%;
+  }
   .section-collapse .info-collapse-div {
-    margin-top: 5%;
+    margin-top: 0;
     flex-direction: column;
     align-items: center;
   }

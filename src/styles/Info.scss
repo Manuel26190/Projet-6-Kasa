@@ -107,6 +107,43 @@ article{
 }
 
 //Partie responsive//
+@media(max-width: 1000px) {
+    article{        
+        width: 85%;
+        .section-info{
+            flex-direction: column;            
+            .info-host-div{
+                height: auto;                
+                .div-tags-rating{                    
+                    .div-tags{
+                        margin-top: 0.8%;                        
+                        width: 70%;                               
+                        
+                }
+            }
+        }
+        .host-div-box{
+            flex-direction: row-reverse;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0%;            
+            .host-div{                
+                p{                    
+                    margin-right: 12%;
+                    width: 35%;                    
+                }                          
+            }
+            .rating-div{                
+                margin-top: 2.5%;               
+            }
+        }
+    }   
+    .info-collapse-div{
+         margin-top: 10%;
+        }
+    }
+}
 
 @media(max-width: 768px) {
     article{        
@@ -140,13 +177,13 @@ article{
             flex-direction: row-reverse;
             width: 100%;
             justify-content: space-between;
-            margin-top: 0%;            
+            margin-top: -2%;
+            align-items: center;            
             .host-div{
-                align-items: flex-start;
+                align-items: center;
                 p{
-                    font-size: 12px;
-                    margin-top: 0;
-                    margin-right: 11%;
+                    font-size: 12px;                    
+                    margin-right: 12%;
                     width: 35%;                    
                 }
                 img{

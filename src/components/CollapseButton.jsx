@@ -24,8 +24,8 @@ function CollapseButton ({buttonText, content}) {
                     icon={faChevronRight} 
                 />            
             </button>            
-            <div className='collapse-text'>
-                {content}
+            <div className='collapse-div-text'>
+                <span className="collapse-text">{content}</span>
             </div>                                                           
         </div>                                                   
 ) : (            
