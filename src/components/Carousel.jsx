@@ -5,9 +5,8 @@ import { faChevronRight,faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
 function Carousel({ pictures }) {
 /*
-j'utilise le useState pour gérer l'index de la diapositive actuelle 
-avec la variable currentSlide. Lorsque l'utilisateur clique sur les boutons "Previous" ou "Next",
-currentSlide se met à jour en conséquence.
+j'utilise le useState pour gérer l'index de la diapositive actuelle avec la variable currentSlide. 
+Lorsque l'utilisateur clique sur les boutons "Previous" ou "Next", currentSlide se met à jour en conséquence. 
 L'image affichée est basée sur l'URL correspondante à l'index currentSlide dans le tableau pictures.
 */
   const [currentSlide, setCurrentSlide] = React.useState(0);

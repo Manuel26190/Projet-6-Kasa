@@ -1,6 +1,7 @@
 /*Styles du composant Info*/
 
 @import '../styles/Variables';
+
 article{
     width: 86.1%;
     margin: auto;
@@ -43,8 +44,7 @@ article{
                     display: flex;
                     column-gap: 3%;
                     width: 85%;
-                    margin-top: 2.5%;
-                       
+                    margin-top: 2.5%;                       
                 }
                 p{
                     color: $primary-white-color;
@@ -107,6 +107,7 @@ article{
 }
 
 //Partie responsive//
+
 @media(max-width: 1000px) {
     article{        
         width: 85%;
@@ -117,8 +118,7 @@ article{
                 .div-tags-rating{                    
                     .div-tags{
                         margin-top: 0.8%;                        
-                        width: 70%;                               
-                        
+                        width: 70%;                        
                 }
             }
         }
@@ -196,8 +196,7 @@ article{
                 margin-top: 2.5%;               
             }
         }
-    }   
-    
+    }  
     .info-collapse-div{
          margin-top: 35%;
         }

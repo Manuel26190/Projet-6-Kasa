@@ -6,10 +6,10 @@ import '../pages/About/AboutPage.jsx';
 import { useLocation } from 'react-router-dom';  
 
 function Header() {
-	
+//Le hook useLocation() renvoie l'objet location qui représente l'emplacement actuel de l'application.
 	const location = useLocation();
-  const currentPage = location.pathname;  
-	
+	const currentPage = location.pathname;  
+//la variable currentPage contiendra la valeur de l'URL actuelle
 	return (
 		<div className='header-container'>
 			<div className='kasa-header'>

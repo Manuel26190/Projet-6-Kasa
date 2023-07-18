@@ -13,7 +13,9 @@ function Infos ({descriptionButton,
     location,
     tags,
     rating}) {
-
+//La fonction equipmentsTable prend un tableau equip en tant que paramètre et
+// retourne un élément <ul> contenant une liste d'éléments <li> générés à partir 
+//des éléments du tableau equip. 
         function equipmentsTable (equip) {
             return (
                 <ul>

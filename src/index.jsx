@@ -5,7 +5,7 @@ import IsAbout from './pages/About/AboutPage.jsx';
 import Details from './pages/Details/DetailsPage.jsx';
 import Error from './pages/Error/ErrorPage.jsx';
 import '../src/styles/index.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 
