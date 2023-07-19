@@ -1,25 +1,11 @@
 /*Styles des menus déroulants de la page A Propos et sur la page details*/
 
 @import '../styles/Variables';
-
-@keyframes slidein {
-    from {
-      opacity: 0;
-      visibility: hidden;      
-      margin-top: -6%;                       
-    }  
-    to {
-        opacity: 1;
-        visibility: visible;        
-        margin-top: 0%;                                
-    }
-  }
   
 .collapse-div{ 
-   width: 82%;  
-   margin-bottom: 2.9%;
+   width: 82%;   
    display: flex;
-   flex-direction: column;   
+   flex-direction: column;      
     .open-collapse-button{
         z-index: 1;
         background: $primary-red-color;
@@ -28,17 +14,18 @@
         font-size: 24px;
         font-family: Montserrat;
         font-weight: 500;        
-        border-radius: 10px;
+        border-radius: 5px;
         line-height: 182.6%;
         display: flex;
         justify-content: space-between;
         padding: 5px 20px 5px 20px;
-        cursor: pointer;        
+        cursor: pointer;
+        margin-bottom: -12px;               
     }    
     .collapse-div-text{
         height: 100%;
         z-index: -1;
-        padding: 3% 3% 3% 5%;                
+        padding: 2% 3% 2% 5%;                
         background: var(--gray, $primary-grey-background-color); 
         border-radius: 10px;        
         color: $primary-red-color;    
@@ -48,9 +35,22 @@
         font-weight: 500;
         line-height: 142.6%;
         list-style-type: none;        
-        animation-duration: 0.5s;        
-        animation-name: slidein;                
-    }ul{        
+        transition: all 0.6s ease-out, opacity 0.5s;
+        opacity: 0.5;
+        visibility: hidden;
+        overflow: hidden;
+        height: 0;
+        transform: translateY(-30px);
+                        
+    }.collapse-div-text.open{
+     visibility: visible;
+      transform: translateY(0px);
+      opacity: 1;
+      height: auto;
+      z-index: -1;
+      margin-bottom: 2.5%;
+    }
+    ul{        
         margin-top: 0%;
     }
     .close-collapse-button{

@@ -14,7 +14,7 @@ function CollapseButton ({buttonText, content}) {
         setIsOpen(!isOpen) 
     };    
 
-    return isOpen ? ( 
+    return  ( 
                   
         <div className='collapse-div'>
             <button className="open-collapse-button" onClick={handleClick}>
@@ -24,22 +24,12 @@ function CollapseButton ({buttonText, content}) {
                     icon={faChevronRight} 
                 />            
             </button>            
-            <div className='collapse-div-text'>
+            <div className={`collapse-div-text ${isOpen ? "open" : ""}`}>
                 <span className="collapse-text">{content}</span>
             </div>                                                           
-        </div>                                                   
-) : (            
-        <div className='collapse-div'>
-            <button className="close-collapse-button" onClick={handleClick}>
-                {buttonText}
-                <FontAwesomeIcon
-                    className="chevron-logo"
-                    icon={faChevronRight}                
-                />                       
-            </button>                        
-        </div>               
-    )        
+        </div>
+    )                                                   
+   
 };          
 
 export default CollapseButton
-
