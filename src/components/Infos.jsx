@@ -19,8 +19,8 @@ function Infos ({descriptionButton,
         function equipmentsTable (equip) {
             return (
                 <ul>
-                    {equip.map((equip) => (
-                        <li>{equip}</li>
+                    {equip.map((equip, index) => (
+                        <li key={index}>{equip}</li>
                     ))}                
                 </ul>
             )       
