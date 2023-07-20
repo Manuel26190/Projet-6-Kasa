@@ -24,7 +24,7 @@
 .collapse-div .collapse-div-text {
   height: 100%;
   z-index: -1;
-  padding: 3% 3% 2% 5%;
+  padding: 4% 3% 2% 5%;
   background: var(--gray, #f6f6f6);
   border-radius: 10px;
   color: #ff6060;
@@ -45,7 +45,7 @@
   visibility: visible;
   transform: translateY(0px);
   opacity: 1;
-  height: auto;
+  height: 100%;
   z-index: -1;
   margin-bottom: 2.5%;
 }
@@ -79,6 +79,9 @@
   .collapse-div {
     width: 80%;
   }
+  .collapse-div .collapse-div-text {
+    padding-top: 6%;
+  }
 }
 @media (max-width: 768px) {
   .section-collapse {
@@ -94,7 +97,7 @@
     width: 100%;
   }
   .collapse-div .collapse-div-text {
-    padding-top: 3%;
+    padding-top: 5%;
   }
   .collapse-div .open-collapse-button {
     border-radius: 5px;

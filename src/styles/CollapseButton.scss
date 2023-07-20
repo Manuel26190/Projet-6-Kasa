@@ -5,9 +5,9 @@
 .collapse-div{ 
    width: 82%;   
    display: flex;
-   flex-direction: column;      
+   flex-direction: column;        
     .open-collapse-button{
-        z-index: 1;
+        z-index: 1;        
         background: $primary-red-color;
         color: $primary-white-color;
         border: none;
@@ -25,7 +25,7 @@
     .collapse-div-text{
         height: 100%;
         z-index: -1;
-        padding: 3% 3% 2% 5%;                
+        padding: 4% 3% 2% 5%;                
         background: var(--gray, $primary-grey-background-color); 
         border-radius: 10px;        
         color: $primary-red-color;    
@@ -46,7 +46,7 @@
      visibility: visible;
       transform: translateY(0px);
       opacity: 1;
-      height: auto;
+      height: 100%;
       z-index: -1;
       margin-bottom: 2.5%;
     }
@@ -81,6 +81,9 @@
 @media (max-width: 1000px){
     .collapse-div{
         width: 80%;
+        .collapse-div-text{
+            padding-top: 6% ;
+        }
     }
 }
 
@@ -98,7 +101,7 @@
         margin-bottom: 5%;
         width: 100%;
         .collapse-div-text{
-            padding-top: 3% ;
+            padding-top: 5% ;
         }     
         
         .open-collapse-button{
