@@ -122,7 +122,7 @@ article .section-collapse .info-collapse-div {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0%;
+    margin-top: -4%;
   }
   article .section-info .host-div-box .host-div p {
     margin-right: 12%;
@@ -131,8 +131,11 @@ article .section-collapse .info-collapse-div {
   article .section-info .host-div-box .rating-div {
     margin-top: 2.5%;
   }
-  article .info-collapse-div {
-    margin-top: 10%;
+  article .section-collapse {
+    margin-bottom: 4%;
+  }
+  article .section-collapse .info-collapse-div {
+    margin-top: 6%;
   }
 }
 @media (max-width: 768px) {
@@ -185,7 +188,11 @@ article .section-collapse .info-collapse-div {
   article .section-info .host-div-box .rating-div {
     margin-top: 2.5%;
   }
-  article .info-collapse-div {
-    margin-top: 35%;
+  article .section-collapse {
+    margin-top: -10%;
+    margin-bottom: -5%;
+  }
+  article .section-collapse .info-collapse-div {
+    margin-top: 5%;
   }
 }/*# sourceMappingURL=Info.css.map */

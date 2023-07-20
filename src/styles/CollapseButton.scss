@@ -25,7 +25,7 @@
     .collapse-div-text{
         height: 100%;
         z-index: -1;
-        padding: 2% 3% 2% 5%;                
+        padding: 3% 3% 2% 5%;                
         background: var(--gray, $primary-grey-background-color); 
         border-radius: 10px;        
         color: $primary-red-color;    
@@ -78,6 +78,12 @@
 }
 
 //Partie responsive//
+@media (max-width: 1000px){
+    .collapse-div{
+        width: 80%;
+    }
+}
+
 
 @media (max-width: 768px) {
     .section-collapse{
@@ -90,7 +96,10 @@
     }
     .collapse-div{
         margin-bottom: 5%;
-        width: 100%;     
+        width: 100%;
+        .collapse-div-text{
+            padding-top: 3% ;
+        }     
         
         .open-collapse-button{
             border-radius: 5px ;

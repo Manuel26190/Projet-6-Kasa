@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 86.5%;
   margin: auto;
 }
 .div-about .div-img-about {
@@ -21,6 +21,20 @@
 
 @media (max-width: 1000px) {
   .div-about {
+    width: 100%;
+  }
+  .div-about .div-img-about {
+    width: 86.5%;
+  }
+}
+@media (max-width: 768px) {
+  .div-about {
     width: 93%;
+  }
+  .div-about .div-img-about {
+    width: 100%;
+  }
+  .div-about .div-img-about .about-img {
+    margin-bottom: 5%;
   }
 }/*# sourceMappingURL=About.css.map */

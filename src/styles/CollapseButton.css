@@ -24,7 +24,7 @@
 .collapse-div .collapse-div-text {
   height: 100%;
   z-index: -1;
-  padding: 2% 3% 2% 5%;
+  padding: 3% 3% 2% 5%;
   background: var(--gray, #f6f6f6);
   border-radius: 10px;
   color: #ff6060;
@@ -75,6 +75,11 @@
   transform: rotate(-270deg);
 }
 
+@media (max-width: 1000px) {
+  .collapse-div {
+    width: 80%;
+  }
+}
 @media (max-width: 768px) {
   .section-collapse {
     margin-top: -3%;
@@ -87,6 +92,9 @@
   .collapse-div {
     margin-bottom: 5%;
     width: 100%;
+  }
+  .collapse-div .collapse-div-text {
+    padding-top: 3%;
   }
   .collapse-div .open-collapse-button {
     border-radius: 5px;
