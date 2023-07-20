@@ -20,7 +20,7 @@ function CollapseButton ({buttonText, content}) {
             <button className="open-collapse-button" onClick={handleClick}>
                 {buttonText}
                 <FontAwesomeIcon 
-                    className="chevron-logo active" 
+                    className={`chevron-logo ${isOpen ? "active" : ""}`} 
                     icon={faChevronRight} 
                 />            
             </button>            
@@ -33,3 +33,4 @@ function CollapseButton ({buttonText, content}) {
 };          
 
 export default CollapseButton
+
