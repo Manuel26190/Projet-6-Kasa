@@ -40,6 +40,8 @@ article{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                width: 66%;
+                
                 .div-tags{
                     display: flex;
                     column-gap: 3%;
@@ -47,19 +49,20 @@ article{
                     margin-top: 2.5%;                       
                 }
                 p{
-                    color: $primary-white-color;
-                    text-align: center;
+                    color: $primary-white-color;                    
                     font-family: Montserrat;
                     font-size: 14px;    
-                    font-weight: 500;
-                    line-height: 142.6%;
+                    font-weight: 500;                    
                     border-radius: 10px;
                     background: $primary-red-color;
-                    width: 150px;
-                    height: 25px;        
-                    text-align: center;
-                    line-height: 25px;
-                    margin-bottom: 24px;       
+                    width: 40%;
+                    padding: 1%;
+                                       
+                    margin-bottom: 24px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;       
                 }
             }            
         }        
@@ -89,7 +92,7 @@ article{
                 }            
             }
             .rating-div{
-                margin-top: 12%;                                
+                margin-top: 18%;                                
             } 
         }       
     }
@@ -99,7 +102,8 @@ article{
             width: 100%;    
             column-gap: 7%;
             display: flex;
-            margin-bottom: 1%;                          
+            margin-bottom: 1%;
+            margin-top: 2.5%;                          
         }  
         
     }
@@ -145,16 +149,14 @@ article{
             margin-top: 6%;
             
            }
-
-    }   
-    
+        }      
     }
 }
 
 @media(max-width: 768px) {
     article{        
         width: 100%;
-        .section-info{
+        .section-info{                       
             flex-direction: column;            
             .info-host-div{
                 height: auto;
@@ -166,15 +168,17 @@ article{
                     font-size: 14px;
                     margin-top: 1%;
                 }
-                .div-tags-rating{                    
+                .div-tags-rating{ 
+                    width: 100%;                                       
                     .div-tags{
                         margin-top: 0.8%;
-                        
-                        width: 70%;                                                
+                        width:100%;
+                                                                        
                         p{
                             font-size: 10px;
                             border-radius: 5px;
-                            margin-bottom: 4%;
+                            margin-bottom: 4%;                          
+                                                        
                     }
                 }
             }
@@ -204,10 +208,10 @@ article{
         }
     }
     .section-collapse{
-        margin-top: -10%;
+        margin-top: -7%;
         margin-bottom: -5%;
         .info-collapse-div{
-            margin-top: 5%;
+            margin-top: 12%;
            }
 
     }  

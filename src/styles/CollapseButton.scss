@@ -14,7 +14,7 @@
         font-size: 24px;
         font-family: Montserrat;
         font-weight: 500;        
-        border-radius: 5px;
+        border-radius: 10px;
         line-height: 182.6%;
         display: flex;
         justify-content: space-between;
@@ -41,7 +41,7 @@
         overflow: hidden;
         height: 0;
         transform: translateY(-30px);
-                        
+    //Animation de la collapse//                    
     }.collapse-div-text.open{
      visibility: visible;
       transform: translateY(0px);
@@ -72,6 +72,7 @@
         transform: rotate(-90deg);
         transition: all 0.5s ease-in-out ;    
     }
+    //Animation du chevron logo//
     .chevron-logo.active {
         transform: rotate(-270deg);
     }     
@@ -108,7 +109,7 @@
             border-radius: 5px ;
             font-size: 13px;
             padding: 1% 5% 1% 5% ;           
-                       
+            margin-top: -2%;           
         }
         .close-collapse-button{
             border-radius: 5px ;
