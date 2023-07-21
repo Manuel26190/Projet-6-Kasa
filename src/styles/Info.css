@@ -47,7 +47,7 @@ article .section-info .info-host-div .div-tags-rating .div-tags {
   -moz-column-gap: 3%;
        column-gap: 3%;
   width: 85%;
-  margin-top: 2.5%;
+  margin-top: 2.1%;
 }
 article .section-info .info-host-div .div-tags-rating p {
   color: white;
@@ -102,7 +102,7 @@ article .section-collapse .info-collapse-div {
        column-gap: 7%;
   display: flex;
   margin-bottom: 1%;
-  margin-top: 2.5%;
+  margin-top: 1%;
 }
 
 @media (max-width: 1000px) {
@@ -199,6 +199,6 @@ article .section-collapse .info-collapse-div {
     margin-bottom: -5%;
   }
   article .section-collapse .info-collapse-div {
-    margin-top: 12%;
+    margin-top: 5%;
   }
 }/*# sourceMappingURL=Info.css.map */
