@@ -7,8 +7,6 @@ article {
 }
 article .section-info {
   width: auto;
-  height: 150px;
-  margin-bottom: 25px;
   display: flex;
 }
 article .section-info .info-host-div {
@@ -40,14 +38,15 @@ article .section-info .info-host-div .div-tags-rating {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 66%;
+  width: 100%;
 }
 article .section-info .info-host-div .div-tags-rating .div-tags {
   display: flex;
-  -moz-column-gap: 3%;
-       column-gap: 3%;
-  width: 85%;
-  margin-top: 2.1%;
+  justify-content: flex-start;
+  -moz-column-gap: 1.3%;
+       column-gap: 1.3%;
+  margin-top: 1.5%;
+  width: 100%;
 }
 article .section-info .info-host-div .div-tags-rating p {
   color: white;
@@ -56,13 +55,12 @@ article .section-info .info-host-div .div-tags-rating p {
   font-weight: 500;
   border-radius: 10px;
   background: #ff6060;
-  width: 40%;
-  padding: 1%;
   margin-bottom: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0.5% 3% 0.5% 3%;
 }
 article .section-info .host-div-box {
   display: flex;
@@ -82,8 +80,8 @@ article .section-info .host-div-box .host-div p {
   font-style: normal;
   font-weight: 500;
   text-align: right;
-  margin-right: 8%;
-  width: 30%;
+  margin-right: 7%;
+  width: 40%;
 }
 article .section-info .host-div-box .host-div img {
   width: 64px;
@@ -101,8 +99,8 @@ article .section-collapse .info-collapse-div {
   -moz-column-gap: 7%;
        column-gap: 7%;
   display: flex;
-  margin-bottom: 1%;
-  margin-top: 1%;
+  margin-bottom: 2.5%;
+  margin-top: 1.8%;
 }
 
 @media (max-width: 1000px) {
@@ -164,6 +162,8 @@ article .section-collapse .info-collapse-div {
   article .section-info .info-host-div .div-tags-rating .div-tags {
     margin-top: 0.8%;
     width: 100%;
+    -moz-column-gap: 3%;
+         column-gap: 3%;
   }
   article .section-info .info-host-div .div-tags-rating .div-tags p {
     font-size: 10px;
@@ -175,7 +175,6 @@ article .section-collapse .info-collapse-div {
     flex-direction: row-reverse;
     width: 100%;
     justify-content: space-between;
-    margin-top: -2%;
     align-items: center;
   }
   article .section-info .host-div-box .host-div {
@@ -195,7 +194,6 @@ article .section-collapse .info-collapse-div {
     margin-top: 2.5%;
   }
   article .section-collapse {
-    margin-top: -7%;
     margin-bottom: -5%;
   }
   article .section-collapse .info-collapse-div {

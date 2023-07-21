@@ -84,11 +84,7 @@
   }
 }
 @media (max-width: 768px) {
-  .section-collapse {
-    margin-top: -3%;
-  }
   .section-collapse .info-collapse-div {
-    margin-top: 0;
     flex-direction: column;
     align-items: center;
   }
