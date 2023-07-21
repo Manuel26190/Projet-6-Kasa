@@ -64,7 +64,11 @@
    .carousel-div{
       .image-container{
          .next-button{
-            right: 3%;            
+            right: 3%;
+            font-size: 24px;            
+         }
+         .previous-button{
+            font-size: 24px;
          }
       }   
    }
@@ -76,8 +80,11 @@
           margin: 0 15% 0 15%;
           .image-container {
               .carousel-img {
-                  height: 255px;
-              }              
+                  height: 255px;                  
+              }
+              p{
+               visibility: hidden;
+            }              
           }
      }
 }

@@ -169,6 +169,7 @@ article .section-collapse .info-collapse-div {
     font-size: 10px;
     border-radius: 5px;
     margin-bottom: 4%;
+    padding: 1%;
   }
   article .section-info .host-div-box {
     flex-direction: row-reverse;

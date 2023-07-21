@@ -59,6 +59,10 @@
 @media (max-width: 1000px) {
   .carousel-div .image-container .next-button {
     right: 3%;
+    font-size: 24px;
+  }
+  .carousel-div .image-container .previous-button {
+    font-size: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -68,5 +72,8 @@
   }
   .carousel-div .image-container .carousel-img {
     height: 255px;
+  }
+  .carousel-div .image-container p {
+    visibility: hidden;
   }
 }/*# sourceMappingURL=Carousel.css.map */
