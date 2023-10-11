@@ -13,13 +13,13 @@ function Header() {
 	return (
 		<div className='header-container'>
 			<div className='kasa-header'>
-				<Link to='/'>
+				<Link to='/Projet-React'>
 					<img src={Redlogo} alt='logo-Kasa'/>					
 				</Link>				
 				<nav className='kasa-nav'>
 					<ul className='kasa-ul'>
 						<li>
-						<Link to='/' className={currentPage === '/'? 'nav-link active' : 'nav-link'}> 
+						<Link to='/Projet-React' className={currentPage === '/Projet-React'? 'nav-link active' : 'nav-link'}> 
 							Accueil
 						</Link>
 						</li>
