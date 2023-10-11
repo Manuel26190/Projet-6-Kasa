@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/https;//Manuel26190.github.io/Projet-React/static/css/main.3953da00.css",
-    "main.js": "/https;//Manuel26190.github.io/Projet-React/static/js/main.53d3a27d.js",
+    "main.js": "/https;//Manuel26190.github.io/Projet-React/static/js/main.2cbc67f2.js",
     "static/media/img-about.jpg": "/https;//Manuel26190.github.io/Projet-React/static/media/img-about.e54ae93d36cfba861b65.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/https;//Manuel26190.github.io/Projet-React/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/imgBanner.jpg": "/https;//Manuel26190.github.io/Projet-React/static/media/imgBanner.5310d91320b97b040567.jpg",
@@ -9,10 +9,10 @@
     "static/media/LOGO-kasa-red.svg": "/https;//Manuel26190.github.io/Projet-React/static/media/LOGO-kasa-red.321cad97a448ce432e377a7af17a23f3.svg",
     "index.html": "/https;//Manuel26190.github.io/Projet-React/index.html",
     "main.3953da00.css.map": "/https;//Manuel26190.github.io/Projet-React/static/css/main.3953da00.css.map",
-    "main.53d3a27d.js.map": "/https;//Manuel26190.github.io/Projet-React/static/js/main.53d3a27d.js.map"
+    "main.2cbc67f2.js.map": "/https;//Manuel26190.github.io/Projet-React/static/js/main.2cbc67f2.js.map"
   },
   "entrypoints": [
     "static/css/main.3953da00.css",
-    "static/js/main.53d3a27d.js"
+    "static/js/main.2cbc67f2.js"
   ]
 }
