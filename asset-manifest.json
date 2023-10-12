@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Projet-React/public/static/css/main.1a955a5e.css",
-    "main.js": "/Projet-React/public/static/js/main.13345ec3.js",
-    "static/media/img-about.jpg": "/Projet-React/public/static/media/img-about.e54ae93d36cfba861b65.jpg",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/Projet-React/public/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/imgBanner.jpg": "/Projet-React/public/static/media/imgBanner.5310d91320b97b040567.jpg",
-    "static/media/LOGO-kasa-white.svg": "/Projet-React/public/static/media/LOGO-kasa-white.64a5b5851986bc9d7ee32a9830a14a59.svg",
-    "static/media/LOGO-kasa-red.svg": "/Projet-React/public/static/media/LOGO-kasa-red.321cad97a448ce432e377a7af17a23f3.svg",
-    "index.html": "/Projet-React/public/index.html",
-    "main.1a955a5e.css.map": "/Projet-React/public/static/css/main.1a955a5e.css.map",
-    "main.13345ec3.js.map": "/Projet-React/public/static/js/main.13345ec3.js.map"
+    "main.css": "/Projet-React/static/css/main.95d58f80.css",
+    "main.js": "/Projet-React/static/js/main.b47e771c.js",
+    "static/media/img-about.jpg": "/Projet-React/static/media/img-about.e54ae93d36cfba861b65.jpg",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/Projet-React/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/imgBanner.jpg": "/Projet-React/static/media/imgBanner.5310d91320b97b040567.jpg",
+    "static/media/LOGO-kasa-white.svg": "/Projet-React/static/media/LOGO-kasa-white.64a5b5851986bc9d7ee32a9830a14a59.svg",
+    "static/media/LOGO-kasa-red.svg": "/Projet-React/static/media/LOGO-kasa-red.321cad97a448ce432e377a7af17a23f3.svg",
+    "index.html": "/Projet-React/index.html",
+    "main.95d58f80.css.map": "/Projet-React/static/css/main.95d58f80.css.map",
+    "main.b47e771c.js.map": "/Projet-React/static/js/main.b47e771c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a955a5e.css",
-    "static/js/main.13345ec3.js"
+    "static/css/main.95d58f80.css",
+    "static/js/main.b47e771c.js"
   ]
 }
