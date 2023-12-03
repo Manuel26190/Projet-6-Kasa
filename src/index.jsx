@@ -16,7 +16,7 @@ root.render(
       <Router>
           <Header />
               <Routes>
-                <Route path="/Projet-React" element={<HomePage />} />
+                <Route path="/home-react" element={<HomePage />} />
                 <Route path="/about" element={<IsAbout />} />
                 <Route path="/details/:id" element={<Details />} />
                 <Route path="/*" element={<Error />} />
